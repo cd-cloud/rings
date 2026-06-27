@@ -23,7 +23,8 @@ data/
   pairs.json
 wedding-ring-assets/    图片资源
   *.png / *.jpg / *.webp  现有官网/实物图
-  placeholders/*.svg      缺图款式的结构示意占位图
+  local/*.svg             批量生成的本地款式示意图
+  placeholders/*.svg      旧版结构示意占位图
 ```
 
 ## 数据维护
@@ -37,17 +38,21 @@ wedding-ring-assets/    图片资源
 
 `rings.json` 中每个单款的 `imageStatus` 用于说明图片来源，当前合法取值：
 
-- `local`：本地图片（`wedding-ring-assets/` 下的官网/实物图）。
-- `placeholder`：本地生成的 SVG 结构示意占位图，仅用于理解款式宽窄/材质/镶钻关系，**不冒充品牌实物图**。
+- `local`：本地官网/实物图（`wedding-ring-assets/` 下的 `.png`/`.jpg`/`.webp`）。
+- `official-remote`：品牌官方远程图片 URL（当前若 URL 加载失败会 fallback 到本地示意图）。
+- `generated-local`：批量生成的本地 SVG 款式示意图，仅用于理解款式宽窄/材质/镶钻关系，**不冒充品牌实物图**。
+- `placeholder`：旧版结构示意占位图，含义同 `generated-local`。
 
-缺图款式统一使用 `placeholder`，页面会以“结构示意”徽章明确标注。
+`generated-local` 与 `placeholder` 会在卡片上以“结构示意”徽章明确标注。
 
 ## 当前数据量
 
 - 品牌：28 个
-- 单款戒指：102 个
-- 推荐组合：55 组
-- 所有单款均有图片（官网实物图或本地生成的结构示意占位图）
+- 单款戒指：243 个
+- 推荐组合：119 组
+- 本地官网/实物图：50 张
+- official-remote 官方远程图：40 款
+- generated-local / placeholder 示意图：153 张
 - 含北京门店/购买渠道信息的品牌：28 个
 
 ## 功能说明

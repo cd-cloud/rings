@@ -208,6 +208,17 @@
     return (fit || []).map(g => map[g] || g).join(' / ');
   }
 
+  function confidenceLabel(conf) {
+    const map = {
+      official: '官方定价',
+      'official-range': '官方区间',
+      estimate: '估算价',
+      inquiry: '需询价',
+      'by-weight': '按克计价'
+    };
+    return map[conf] || conf;
+  }
+
   function beijingNote(brandId) {
     const b = brandById[brandId];
     if (!b) return '';
@@ -292,12 +303,18 @@
     return `<img src="${escapeHtml(src)}" alt="${escapeHtml(alt)}" loading="lazy" onerror="window.RINGS_FALLBACK(this, '${ft}', '${fs}')">`;
   }
 
+  function sourceBadge(ring) {
+    if (ring.imageStatus === 'official-remote') return '<span class="badge official-remote">官方供图</span>';
+    if (ring.imageStatus === 'placeholder') return '<span class="badge placeholder">结构示意</span>';
+    return '';
+  }
+
   function buildRingVisual(ring, brandName) {
-    const placeholder = !ring.image || ring.imageStatus === 'placeholder';
+    const placeholder = !ring.image || ring.imageStatus === 'placeholder' || ring.imageStatus === 'generated-local';
     const alt = [brandName, ring.name].filter(Boolean).join(' ');
     return `
       <div class="visual single">
-        ${placeholder ? '<span class="badge placeholder">结构示意</span>' : ''}
+        ${placeholder ? '<span class="badge placeholder">结构示意</span>' : sourceBadge(ring)}
         ${imgHtml(ring.image, alt, ring.collection || ring.name, ring.brandId)}
       </div>`;
   }
@@ -341,6 +358,7 @@
           <div class="price">
             ${escapeHtml(ring.price?.display || '需询价')}
             <small>/ ${escapeHtml(ring.price?.source || '参考')}</small>
+            ${ring.price?.confidence ? `<small class="confidence ${escapeHtml(ring.price.confidence)}">${confidenceLabel(ring.price.confidence)}</small>` : ''}
             <span class="checked">${escapeHtml(ring.price?.checkedAt || '')}</span>
           </div>
           <div class="tags">${(ring.styleTags || []).concat(ring.meaningTags || []).map(t => `<span>${escapeHtml(t)}</span>`).join('')}</div>

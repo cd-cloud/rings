@@ -75,6 +75,13 @@ h1 { max-width: 900px; margin: 12px 0; font: 500 clamp(38px, 6vw, 72px)/1.02 Geo
 .label b { color: var(--ink); font-size: 12px; }
 .badge { position: absolute; top: 12px; left: 12px; padding: 6px 9px; border-radius: 999px; background: #fffffff0; font-size: 10px; font-weight: 800; }
 .badge.placeholder { background: #fff9f4; color: var(--muted); }
+.badge.official-remote { background: #e8f4ff; color: #1a5a96; }
+
+.confidence { display: inline-block; margin-left: 6px; padding: 2px 6px; border-radius: 4px; background: #f2f2f2; font-size: 10px; font-weight: 600; color: var(--muted); }
+.confidence.official, .confidence.official-range { background: #e6f7e6; color: #2a6a2a; }
+.confidence.estimate { background: #fff8e6; color: #8a6a1a; }
+.confidence.inquiry { background: #f2f2f2; color: #888; }
+.confidence.by-weight { background: #fff0e6; color: #8a4a1a; }
 
 .body { padding: 19px; flex: 1; display: flex; flex-direction: column; }
 .brand { color: var(--rose); font-size: 11px; font-weight: 800; letter-spacing: .1em; }
