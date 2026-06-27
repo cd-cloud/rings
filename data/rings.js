@@ -1,0 +1,3771 @@
+/* Auto-generated. Do not edit by hand. */
+window.RINGS_RINGS = [
+  {
+    "id": "cartier-love-narrow-rose-m",
+    "brandId": "cartier",
+    "collection": "Love",
+    "name": "Love 窄版 玫瑰金",
+    "genderFit": [
+      "male"
+    ],
+    "materials": [
+      "18K玫瑰金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "经典",
+      "螺丝图案"
+    ],
+    "meaningTags": [
+      "永恒",
+      "承诺"
+    ],
+    "price": {
+      "display": "约 ¥9,650",
+      "currency": "CNY",
+      "amount": 9650,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/cartier-love-rose.png",
+    "imageStatus": "local",
+    "officialUrl": "https://www.cartier.cn/zh-cn/%E7%88%B1%E7%9A%84%E7%A4%BC%E7%89%A9/%E5%A9%9A%E6%88%92.html",
+    "description": "标志性的螺丝图案，窄版设计适合日常佩戴。",
+    "sourceUrls": [
+      "https://www.cartier.cn"
+    ],
+    "storeAvailabilityNote": "官网预约或专柜试戴；SKP店货品较全"
+  },
+  {
+    "id": "cartier-love-narrow-rose-f",
+    "brandId": "cartier",
+    "collection": "Love",
+    "name": "Love 窄版 玫瑰金",
+    "genderFit": [
+      "female"
+    ],
+    "materials": [
+      "18K玫瑰金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "经典",
+      "螺丝图案"
+    ],
+    "meaningTags": [
+      "永恒",
+      "承诺"
+    ],
+    "price": {
+      "display": "约 ¥9,650",
+      "currency": "CNY",
+      "amount": 9650,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/cartier-love-rose.png",
+    "imageStatus": "local",
+    "officialUrl": "https://www.cartier.cn/zh-cn/%E7%88%B1%E7%9A%84%E7%A4%BC%E7%89%A9/%E5%A9%9A%E6%88%92.html",
+    "description": "标志性的螺丝图案，窄版设计优雅精致。",
+    "sourceUrls": [
+      "https://www.cartier.cn"
+    ],
+    "storeAvailabilityNote": "官网预约或专柜试戴；SKP店货品较全"
+  },
+  {
+    "id": "cartier-love-narrow-yellow-m",
+    "brandId": "cartier",
+    "collection": "Love",
+    "name": "Love 窄版 黄金",
+    "genderFit": [
+      "male"
+    ],
+    "materials": [
+      "18K黄金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "经典",
+      "螺丝图案"
+    ],
+    "meaningTags": [
+      "永恒",
+      "承诺"
+    ],
+    "price": {
+      "display": "约 ¥9,650",
+      "currency": "CNY",
+      "amount": 9650,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/cartier-love-yellow.png",
+    "imageStatus": "local",
+    "officialUrl": "https://www.cartier.cn/zh-cn/%E7%88%B1%E7%9A%84%E7%A4%BC%E7%89%A9/%E5%A9%9A%E6%88%92.html",
+    "description": "经典黄金色，螺丝图案象征永恒承诺。",
+    "sourceUrls": [
+      "https://www.cartier.cn"
+    ],
+    "storeAvailabilityNote": "官网预约或专柜试戴；SKP店货品较全"
+  },
+  {
+    "id": "cartier-love-narrow-yellow-f",
+    "brandId": "cartier",
+    "collection": "Love",
+    "name": "Love 窄版 黄金",
+    "genderFit": [
+      "female"
+    ],
+    "materials": [
+      "18K黄金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "经典",
+      "螺丝图案"
+    ],
+    "meaningTags": [
+      "永恒",
+      "承诺"
+    ],
+    "price": {
+      "display": "约 ¥9,650",
+      "currency": "CNY",
+      "amount": 9650,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/cartier-love-yellow.png",
+    "imageStatus": "local",
+    "officialUrl": "https://www.cartier.cn/zh-cn/%E7%88%B1%E7%9A%84%E7%A4%BC%E7%89%A9/%E5%A9%9A%E6%88%92.html",
+    "description": "经典黄金色，窄版设计优雅精致。",
+    "sourceUrls": [
+      "https://www.cartier.cn"
+    ],
+    "storeAvailabilityNote": "官网预约或专柜试戴；SKP店货品较全"
+  },
+  {
+    "id": "cartier-love-narrow-diamond-f",
+    "brandId": "cartier",
+    "collection": "Love",
+    "name": "Love 窄版镶钻 玫瑰金",
+    "genderFit": [
+      "female"
+    ],
+    "materials": [
+      "18K玫瑰金"
+    ],
+    "stones": [
+      "钻石"
+    ],
+    "styleTags": [
+      "经典",
+      "螺丝图案",
+      "镶钻"
+    ],
+    "meaningTags": [
+      "永恒",
+      "璀璨"
+    ],
+    "price": {
+      "display": "约 ¥18,200",
+      "currency": "CNY",
+      "amount": 18200,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/cartier-love-diamond.png",
+    "imageStatus": "local",
+    "officialUrl": "https://www.cartier.cn/zh-cn/%E7%88%B1%E7%9A%84%E7%A4%BC%E7%89%A9/%E5%A9%9A%E6%88%92.html",
+    "description": "窄版玫瑰金镶嵌单颗钻石，更显璀璨。",
+    "sourceUrls": [
+      "https://www.cartier.cn"
+    ],
+    "storeAvailabilityNote": "官网预约或专柜试戴；SKP店货品较全"
+  },
+  {
+    "id": "cartier-love-narrow-diamond-m",
+    "brandId": "cartier",
+    "collection": "Love",
+    "name": "Love 窄版镶钻 玫瑰金",
+    "genderFit": [
+      "male"
+    ],
+    "materials": [
+      "18K玫瑰金"
+    ],
+    "stones": [
+      "钻石"
+    ],
+    "styleTags": [
+      "经典",
+      "螺丝图案",
+      "镶钻"
+    ],
+    "meaningTags": [
+      "永恒",
+      "璀璨"
+    ],
+    "price": {
+      "display": "约 ¥18,200",
+      "currency": "CNY",
+      "amount": 18200,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/cartier-love-diamond.png",
+    "imageStatus": "local",
+    "officialUrl": "https://www.cartier.cn/zh-cn/%E7%88%B1%E7%9A%84%E7%A4%BC%E7%89%A9/%E5%A9%9A%E6%88%92.html",
+    "description": "窄版玫瑰金镶嵌单颗钻石，适合追求细节的男士。",
+    "sourceUrls": [
+      "https://www.cartier.cn"
+    ],
+    "storeAvailabilityNote": "官网预约或专柜试戴；SKP店货品较全"
+  },
+  {
+    "id": "tiffany-forever-platinum-m",
+    "brandId": "tiffany",
+    "collection": "Forever",
+    "name": "Forever 窄版 铂金",
+    "genderFit": [
+      "male"
+    ],
+    "materials": [
+      "铂金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "经典",
+      "简约"
+    ],
+    "meaningTags": [
+      "永恒",
+      "纯净"
+    ],
+    "price": {
+      "display": "约 ¥12,900",
+      "currency": "CNY",
+      "amount": 12900,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/tiffany-forever-platinum-diamond.jpg",
+    "imageStatus": "local",
+    "officialUrl": "https://www.tiffany.cn/jewelry/rings/wedding-bands/",
+    "description": "铂金窄版婚戒，经典永恒设计。",
+    "sourceUrls": [
+      "https://www.tiffany.cn"
+    ],
+    "storeAvailabilityNote": "官网可查询库存；建议到店确认圈号与刻字服务"
+  },
+  {
+    "id": "tiffany-forever-platinum-f",
+    "brandId": "tiffany",
+    "collection": "Forever",
+    "name": "Forever 窄版 铂金",
+    "genderFit": [
+      "female"
+    ],
+    "materials": [
+      "铂金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "经典",
+      "简约"
+    ],
+    "meaningTags": [
+      "永恒",
+      "纯净"
+    ],
+    "price": {
+      "display": "约 ¥12,900",
+      "currency": "CNY",
+      "amount": 12900,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/tiffany-forever-platinum-diamond.jpg",
+    "imageStatus": "local",
+    "officialUrl": "https://www.tiffany.cn/jewelry/rings/wedding-bands/",
+    "description": "铂金窄版婚戒，优雅精致。",
+    "sourceUrls": [
+      "https://www.tiffany.cn"
+    ],
+    "storeAvailabilityNote": "官网可查询库存；建议到店确认圈号与刻字服务"
+  },
+  {
+    "id": "tiffany-forever-rose-m",
+    "brandId": "tiffany",
+    "collection": "Forever",
+    "name": "Forever 窄版 玫瑰金",
+    "genderFit": [
+      "male"
+    ],
+    "materials": [
+      "18K玫瑰金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "经典",
+      "简约"
+    ],
+    "meaningTags": [
+      "永恒",
+      "温暖"
+    ],
+    "price": {
+      "display": "约 ¥11,800",
+      "currency": "CNY",
+      "amount": 11800,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/tiffany-forever-rose.jpg",
+    "imageStatus": "local",
+    "officialUrl": "https://www.tiffany.cn/jewelry/rings/wedding-bands/",
+    "description": "玫瑰金窄版婚戒，温暖色调。",
+    "sourceUrls": [
+      "https://www.tiffany.cn"
+    ],
+    "storeAvailabilityNote": "官网可查询库存；建议到店确认圈号与刻字服务"
+  },
+  {
+    "id": "tiffany-forever-rose-f",
+    "brandId": "tiffany",
+    "collection": "Forever",
+    "name": "Forever 窄版 玫瑰金",
+    "genderFit": [
+      "female"
+    ],
+    "materials": [
+      "18K玫瑰金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "经典",
+      "简约"
+    ],
+    "meaningTags": [
+      "永恒",
+      "温暖"
+    ],
+    "price": {
+      "display": "约 ¥11,800",
+      "currency": "CNY",
+      "amount": 11800,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/tiffany-forever-rose.jpg",
+    "imageStatus": "local",
+    "officialUrl": "https://www.tiffany.cn/jewelry/rings/wedding-bands/",
+    "description": "玫瑰金窄版婚戒，优雅温暖。",
+    "sourceUrls": [
+      "https://www.tiffany.cn"
+    ],
+    "storeAvailabilityNote": "官网可查询库存；建议到店确认圈号与刻字服务"
+  },
+  {
+    "id": "tiffany-forever-yellow-m",
+    "brandId": "tiffany",
+    "collection": "Forever",
+    "name": "Forever 窄版 黄金",
+    "genderFit": [
+      "male"
+    ],
+    "materials": [
+      "18K黄金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "经典",
+      "简约"
+    ],
+    "meaningTags": [
+      "永恒",
+      "传统"
+    ],
+    "price": {
+      "display": "约 ¥11,800",
+      "currency": "CNY",
+      "amount": 11800,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/tiffany-forever-yellow.jpg",
+    "imageStatus": "local",
+    "officialUrl": "https://www.tiffany.cn/jewelry/rings/wedding-bands/",
+    "description": "黄金窄版婚戒，经典传统色调。",
+    "sourceUrls": [
+      "https://www.tiffany.cn"
+    ],
+    "storeAvailabilityNote": "官网可查询库存；建议到店确认圈号与刻字服务"
+  },
+  {
+    "id": "tiffany-forever-yellow-f",
+    "brandId": "tiffany",
+    "collection": "Forever",
+    "name": "Forever 窄版 黄金",
+    "genderFit": [
+      "female"
+    ],
+    "materials": [
+      "18K黄金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "经典",
+      "简约"
+    ],
+    "meaningTags": [
+      "永恒",
+      "传统"
+    ],
+    "price": {
+      "display": "约 ¥11,800",
+      "currency": "CNY",
+      "amount": 11800,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/tiffany-forever-yellow.jpg",
+    "imageStatus": "local",
+    "officialUrl": "https://www.tiffany.cn/jewelry/rings/wedding-bands/",
+    "description": "黄金窄版婚戒，经典传统。",
+    "sourceUrls": [
+      "https://www.tiffany.cn"
+    ],
+    "storeAvailabilityNote": "官网可查询库存；建议到店确认圈号与刻字服务"
+  },
+  {
+    "id": "tiffany-harmony-f",
+    "brandId": "tiffany",
+    "collection": "Harmony",
+    "name": "Harmony 铂金",
+    "genderFit": [
+      "female"
+    ],
+    "materials": [
+      "铂金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "简约",
+      "锥形"
+    ],
+    "meaningTags": [
+      "和谐",
+      "平衡"
+    ],
+    "price": {
+      "display": "约 ¥13,500",
+      "currency": "CNY",
+      "amount": 13500,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/tiffany-harmony.jpg",
+    "imageStatus": "local",
+    "officialUrl": "https://www.tiffany.cn/jewelry/rings/wedding-bands/",
+    "description": "锥形设计，象征和谐与平衡。",
+    "sourceUrls": [
+      "https://www.tiffany.cn"
+    ],
+    "storeAvailabilityNote": "官网可查询库存；建议到店确认圈号与刻字服务"
+  },
+  {
+    "id": "tiffany-sixteen-stone-f",
+    "brandId": "tiffany",
+    "collection": "Sixteen Stone",
+    "name": "Sixteen Stone 铂金",
+    "genderFit": [
+      "female"
+    ],
+    "materials": [
+      "铂金"
+    ],
+    "stones": [
+      "钻石"
+    ],
+    "styleTags": [
+      "奢华",
+      "镶钻"
+    ],
+    "meaningTags": [
+      "璀璨",
+      "珍贵"
+    ],
+    "price": {
+      "display": "约 ¥58,000",
+      "currency": "CNY",
+      "amount": 58000,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/tiffany-sixteen-stone.jpg",
+    "imageStatus": "local",
+    "officialUrl": "https://www.tiffany.cn/jewelry/rings/wedding-bands/",
+    "description": "16颗钻石镶嵌，奢华璀璨。",
+    "sourceUrls": [
+      "https://www.tiffany.cn"
+    ],
+    "storeAvailabilityNote": "官网可查询库存；建议到店确认圈号与刻字服务"
+  },
+  {
+    "id": "bvlgari-bzero1-rose-m",
+    "brandId": "bvlgari",
+    "collection": "B.zero1",
+    "name": "B.zero1 玫瑰金",
+    "genderFit": [
+      "male"
+    ],
+    "materials": [
+      "18K玫瑰金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "时尚",
+      "螺旋"
+    ],
+    "meaningTags": [
+      "新生",
+      "力量"
+    ],
+    "price": {
+      "display": "约 ¥11,000",
+      "currency": "CNY",
+      "amount": 11000,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/bvlgari-bzero.png",
+    "imageStatus": "local",
+    "officialUrl": "https://www.bulgari.cn/zh-cn/%E5%A9%9A%E6%88%92.html",
+    "description": "螺旋设计，象征新生与力量。",
+    "sourceUrls": [
+      "https://www.bulgari.cn"
+    ],
+    "storeAvailabilityNote": "专柜可试戴；B.zero1与Serpenti系列需确认现货"
+  },
+  {
+    "id": "bvlgari-bzero1-rose-f",
+    "brandId": "bvlgari",
+    "collection": "B.zero1",
+    "name": "B.zero1 玫瑰金",
+    "genderFit": [
+      "female"
+    ],
+    "materials": [
+      "18K玫瑰金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "时尚",
+      "螺旋"
+    ],
+    "meaningTags": [
+      "新生",
+      "力量"
+    ],
+    "price": {
+      "display": "约 ¥11,000",
+      "currency": "CNY",
+      "amount": 11000,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/bvlgari-bzero.png",
+    "imageStatus": "local",
+    "officialUrl": "https://www.bulgari.cn/zh-cn/%E5%A9%9A%E6%88%92.html",
+    "description": "螺旋设计，时尚优雅。",
+    "sourceUrls": [
+      "https://www.bulgari.cn"
+    ],
+    "storeAvailabilityNote": "专柜可试戴；B.zero1与Serpenti系列需确认现货"
+  },
+  {
+    "id": "damiani-dside-white-m",
+    "brandId": "damiani",
+    "collection": "D.Side",
+    "name": "D.Side 白金",
+    "genderFit": [
+      "male"
+    ],
+    "materials": [
+      "18K白金"
+    ],
+    "stones": [
+      "钻石"
+    ],
+    "styleTags": [
+      "经典",
+      "镶钻"
+    ],
+    "meaningTags": [
+      "守护",
+      "珍贵"
+    ],
+    "price": {
+      "display": "约 ¥14,500",
+      "currency": "CNY",
+      "amount": 14500,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/damiani-dside.png",
+    "imageStatus": "local",
+    "officialUrl": "https://www.damiani.com/en/wedding-rings/",
+    "description": "钻石镶嵌，经典设计。",
+    "sourceUrls": [
+      "https://www.damiani.com"
+    ],
+    "storeAvailabilityNote": "SKP专柜有售；建议官网预约后到店"
+  },
+  {
+    "id": "damiani-dside-white-f",
+    "brandId": "damiani",
+    "collection": "D.Side",
+    "name": "D.Side 白金",
+    "genderFit": [
+      "female"
+    ],
+    "materials": [
+      "18K白金"
+    ],
+    "stones": [
+      "钻石"
+    ],
+    "styleTags": [
+      "经典",
+      "镶钻"
+    ],
+    "meaningTags": [
+      "守护",
+      "珍贵"
+    ],
+    "price": {
+      "display": "约 ¥14,500",
+      "currency": "CNY",
+      "amount": 14500,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/damiani-dside.png",
+    "imageStatus": "local",
+    "officialUrl": "https://www.damiani.com/en/wedding-rings/",
+    "description": "钻石镶嵌，优雅经典。",
+    "sourceUrls": [
+      "https://www.damiani.com"
+    ],
+    "storeAvailabilityNote": "SKP专柜有售；建议官网预约后到店"
+  },
+  {
+    "id": "debeers-petal-white-f",
+    "brandId": "debeers",
+    "collection": "Petal",
+    "name": "Petal 白金",
+    "genderFit": [
+      "female"
+    ],
+    "materials": [
+      "18K白金"
+    ],
+    "stones": [
+      "钻石"
+    ],
+    "styleTags": [
+      "奢华",
+      "花瓣"
+    ],
+    "meaningTags": [
+      "绽放",
+      "纯净"
+    ],
+    "price": {
+      "display": "约 ¥22,000",
+      "currency": "CNY",
+      "amount": 22000,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/debeers-petal.png",
+    "imageStatus": "local",
+    "officialUrl": "https://www.debeers.com.cn/",
+    "description": "花瓣钻石设计，奢华绽放。",
+    "sourceUrls": [
+      "https://www.debeers.com.cn"
+    ],
+    "storeAvailabilityNote": "需预约鉴赏；提供钻石溯源证书"
+  },
+  {
+    "id": "debeers-petal-white-m",
+    "brandId": "debeers",
+    "collection": "Petal",
+    "name": "Petal 白金",
+    "genderFit": [
+      "male"
+    ],
+    "materials": [
+      "18K白金"
+    ],
+    "stones": [
+      "钻石"
+    ],
+    "styleTags": [
+      "奢华",
+      "花瓣"
+    ],
+    "meaningTags": [
+      "绽放",
+      "纯净"
+    ],
+    "price": {
+      "display": "约 ¥22,000",
+      "currency": "CNY",
+      "amount": 22000,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/debeers-petal.png",
+    "imageStatus": "local",
+    "officialUrl": "https://www.debeers.com.cn/",
+    "description": "花瓣钻石设计，男士奢华之选。",
+    "sourceUrls": [
+      "https://www.debeers.com.cn"
+    ],
+    "storeAvailabilityNote": "需预约鉴赏；提供钻石溯源证书"
+  },
+  {
+    "id": "iprimo-amanogawa-m",
+    "brandId": "iprimo",
+    "collection": "Amanogawa",
+    "name": "Amanogawa 铂金",
+    "genderFit": [
+      "male"
+    ],
+    "materials": [
+      "铂金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "浪漫",
+      "星空"
+    ],
+    "meaningTags": [
+      "银河",
+      "相遇"
+    ],
+    "price": {
+      "display": "约 ¥8,500",
+      "currency": "CNY",
+      "amount": 8500,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/iprimo-amanogawa.png",
+    "imageStatus": "local",
+    "officialUrl": "https://www.iprimo.com.cn/",
+    "description": "天の川设计，象征银河相遇。",
+    "sourceUrls": [
+      "https://www.iprimo.com.cn"
+    ],
+    "storeAvailabilityNote": "日式定制婚戒；支持刻字与尺寸调整"
+  },
+  {
+    "id": "iprimo-amanogawa-f",
+    "brandId": "iprimo",
+    "collection": "Amanogawa",
+    "name": "Amanogawa 铂金",
+    "genderFit": [
+      "female"
+    ],
+    "materials": [
+      "铂金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "浪漫",
+      "星空"
+    ],
+    "meaningTags": [
+      "银河",
+      "相遇"
+    ],
+    "price": {
+      "display": "约 ¥8,500",
+      "currency": "CNY",
+      "amount": 8500,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/iprimo-amanogawa.png",
+    "imageStatus": "local",
+    "officialUrl": "https://www.iprimo.com.cn/",
+    "description": "天の川设计，浪漫优雅。",
+    "sourceUrls": [
+      "https://www.iprimo.com.cn"
+    ],
+    "storeAvailabilityNote": "日式定制婚戒；支持刻字与尺寸调整"
+  },
+  {
+    "id": "iprimo-neptune-m",
+    "brandId": "iprimo",
+    "collection": "Neptune",
+    "name": "Neptune 铂金",
+    "genderFit": [
+      "male"
+    ],
+    "materials": [
+      "铂金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "简约",
+      "海洋"
+    ],
+    "meaningTags": [
+      "深邃",
+      "守护"
+    ],
+    "price": {
+      "display": "约 ¥9,200",
+      "currency": "CNY",
+      "amount": 9200,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/iprimo-neptune.png",
+    "imageStatus": "local",
+    "officialUrl": "https://www.iprimo.com.cn/",
+    "description": "海王星设计，深邃守护。",
+    "sourceUrls": [
+      "https://www.iprimo.com.cn"
+    ],
+    "storeAvailabilityNote": "日式定制婚戒；支持刻字与尺寸调整"
+  },
+  {
+    "id": "iprimo-neptune-f",
+    "brandId": "iprimo",
+    "collection": "Neptune",
+    "name": "Neptune 铂金",
+    "genderFit": [
+      "female"
+    ],
+    "materials": [
+      "铂金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "简约",
+      "海洋"
+    ],
+    "meaningTags": [
+      "深邃",
+      "守护"
+    ],
+    "price": {
+      "display": "约 ¥9,200",
+      "currency": "CNY",
+      "amount": 9200,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/iprimo-neptune.png",
+    "imageStatus": "local",
+    "officialUrl": "https://www.iprimo.com.cn/",
+    "description": "海王星设计，简约优雅。",
+    "sourceUrls": [
+      "https://www.iprimo.com.cn"
+    ],
+    "storeAvailabilityNote": "日式定制婚戒；支持刻字与尺寸调整"
+  },
+  {
+    "id": "iprimo-nocturnal-m",
+    "brandId": "iprimo",
+    "collection": "Nocturnal",
+    "name": "Nocturnal 玫瑰金",
+    "genderFit": [
+      "male"
+    ],
+    "materials": [
+      "18K玫瑰金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "浪漫",
+      "夜空"
+    ],
+    "meaningTags": [
+      "夜想曲",
+      "静谧"
+    ],
+    "price": {
+      "display": "约 ¥9,800",
+      "currency": "CNY",
+      "amount": 9800,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/iprimo-nocturnal.png",
+    "imageStatus": "local",
+    "officialUrl": "https://www.iprimo.com.cn/",
+    "description": "夜想曲设计，静谧浪漫。",
+    "sourceUrls": [
+      "https://www.iprimo.com.cn"
+    ],
+    "storeAvailabilityNote": "日式定制婚戒；支持刻字与尺寸调整"
+  },
+  {
+    "id": "iprimo-nocturnal-f",
+    "brandId": "iprimo",
+    "collection": "Nocturnal",
+    "name": "Nocturnal 玫瑰金",
+    "genderFit": [
+      "female"
+    ],
+    "materials": [
+      "18K玫瑰金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "浪漫",
+      "夜空"
+    ],
+    "meaningTags": [
+      "夜想曲",
+      "静谧"
+    ],
+    "price": {
+      "display": "约 ¥9,800",
+      "currency": "CNY",
+      "amount": 9800,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/iprimo-nocturnal.png",
+    "imageStatus": "local",
+    "officialUrl": "https://www.iprimo.com.cn/",
+    "description": "夜想曲设计，浪漫优雅。",
+    "sourceUrls": [
+      "https://www.iprimo.com.cn"
+    ],
+    "storeAvailabilityNote": "日式定制婚戒；支持刻字与尺寸调整"
+  },
+  {
+    "id": "iprimo-origin-helene-m",
+    "brandId": "iprimo",
+    "collection": "Origin Hélène",
+    "name": "Origin Hélène 铂金",
+    "genderFit": [
+      "male"
+    ],
+    "materials": [
+      "铂金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "经典",
+      "简约"
+    ],
+    "meaningTags": [
+      "起源",
+      "初心"
+    ],
+    "price": {
+      "display": "约 ¥7,800",
+      "currency": "CNY",
+      "amount": 7800,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/iprimo-origin-helene.png",
+    "imageStatus": "local",
+    "officialUrl": "https://www.iprimo.com.cn/",
+    "description": "经典款设计，象征初心。",
+    "sourceUrls": [
+      "https://www.iprimo.com.cn"
+    ],
+    "storeAvailabilityNote": "日式定制婚戒；支持刻字与尺寸调整"
+  },
+  {
+    "id": "iprimo-origin-helene-f",
+    "brandId": "iprimo",
+    "collection": "Origin Hélène",
+    "name": "Origin Hélène 铂金",
+    "genderFit": [
+      "female"
+    ],
+    "materials": [
+      "铂金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "经典",
+      "简约"
+    ],
+    "meaningTags": [
+      "起源",
+      "初心"
+    ],
+    "price": {
+      "display": "约 ¥7,800",
+      "currency": "CNY",
+      "amount": 7800,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/iprimo-origin-helene.png",
+    "imageStatus": "local",
+    "officialUrl": "https://www.iprimo.com.cn/",
+    "description": "经典款设计，优雅简约。",
+    "sourceUrls": [
+      "https://www.iprimo.com.cn"
+    ],
+    "storeAvailabilityNote": "日式定制婚戒；支持刻字与尺寸调整"
+  },
+  {
+    "id": "niwaka-mugen-m",
+    "brandId": "niwaka",
+    "collection": "Mugen",
+    "name": "Mugen 铂金",
+    "genderFit": [
+      "male"
+    ],
+    "materials": [
+      "铂金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "传统",
+      "京都"
+    ],
+    "meaningTags": [
+      "无限",
+      "永恒"
+    ],
+    "price": {
+      "display": "约 ¥12,000",
+      "currency": "CNY",
+      "amount": 12000,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/niwaka-mugen.webp",
+    "imageStatus": "local",
+    "officialUrl": "https://www.niwaka.com/",
+    "description": "无限设计，京都传统金工。",
+    "sourceUrls": [
+      "https://www.niwaka.com"
+    ],
+    "storeAvailabilityNote": "京都传统金工；需确认现货或定制周期"
+  },
+  {
+    "id": "niwaka-mugen-f",
+    "brandId": "niwaka",
+    "collection": "Mugen",
+    "name": "Mugen 铂金",
+    "genderFit": [
+      "female"
+    ],
+    "materials": [
+      "铂金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "传统",
+      "京都"
+    ],
+    "meaningTags": [
+      "无限",
+      "永恒"
+    ],
+    "price": {
+      "display": "约 ¥12,000",
+      "currency": "CNY",
+      "amount": 12000,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/niwaka-mugen.webp",
+    "imageStatus": "local",
+    "officialUrl": "https://www.niwaka.com/",
+    "description": "无限设计，传统优雅。",
+    "sourceUrls": [
+      "https://www.niwaka.com"
+    ],
+    "storeAvailabilityNote": "京都传统金工；需确认现货或定制周期"
+  },
+  {
+    "id": "niwaka-sekkakei-m",
+    "brandId": "niwaka",
+    "collection": "Sekkakei",
+    "name": "Sekkakei 黄金",
+    "genderFit": [
+      "male"
+    ],
+    "materials": [
+      "18K黄金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "传统",
+      "雪华"
+    ],
+    "meaningTags": [
+      "纯洁",
+      "美好"
+    ],
+    "price": {
+      "display": "约 ¥13,500",
+      "currency": "CNY",
+      "amount": 13500,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/niwaka-sekkakei.webp",
+    "imageStatus": "local",
+    "officialUrl": "https://www.niwaka.com/",
+    "description": "雪华设计，纯洁美好。",
+    "sourceUrls": [
+      "https://www.niwaka.com"
+    ],
+    "storeAvailabilityNote": "京都传统金工；需确认现货或定制周期"
+  },
+  {
+    "id": "niwaka-sekkakei-f",
+    "brandId": "niwaka",
+    "collection": "Sekkakei",
+    "name": "Sekkakei 黄金",
+    "genderFit": [
+      "female"
+    ],
+    "materials": [
+      "18K黄金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "传统",
+      "雪华"
+    ],
+    "meaningTags": [
+      "纯洁",
+      "美好"
+    ],
+    "price": {
+      "display": "约 ¥13,500",
+      "currency": "CNY",
+      "amount": 13500,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/niwaka-sekkakei.webp",
+    "imageStatus": "local",
+    "officialUrl": "https://www.niwaka.com/",
+    "description": "雪华设计，传统优雅。",
+    "sourceUrls": [
+      "https://www.niwaka.com"
+    ],
+    "storeAvailabilityNote": "京都传统金工；需确认现货或定制周期"
+  },
+  {
+    "id": "niwaka-seseragi-m",
+    "brandId": "niwaka",
+    "collection": "Seseragi",
+    "name": "Seseragi 铂金",
+    "genderFit": [
+      "male"
+    ],
+    "materials": [
+      "铂金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "传统",
+      "细流"
+    ],
+    "meaningTags": [
+      "细水长流",
+      "陪伴"
+    ],
+    "price": {
+      "display": "约 ¥11,000",
+      "currency": "CNY",
+      "amount": 11000,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/niwaka-seseragi.webp",
+    "imageStatus": "local",
+    "officialUrl": "https://www.niwaka.com/",
+    "description": "细流设计，细水长流。",
+    "sourceUrls": [
+      "https://www.niwaka.com"
+    ],
+    "storeAvailabilityNote": "京都传统金工；需确认现货或定制周期"
+  },
+  {
+    "id": "niwaka-seseragi-f",
+    "brandId": "niwaka",
+    "collection": "Seseragi",
+    "name": "Seseragi 铂金",
+    "genderFit": [
+      "female"
+    ],
+    "materials": [
+      "铂金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "传统",
+      "细流"
+    ],
+    "meaningTags": [
+      "细水长流",
+      "陪伴"
+    ],
+    "price": {
+      "display": "约 ¥11,000",
+      "currency": "CNY",
+      "amount": 11000,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/niwaka-seseragi.webp",
+    "imageStatus": "local",
+    "officialUrl": "https://www.niwaka.com/",
+    "description": "细流设计，优雅陪伴。",
+    "sourceUrls": [
+      "https://www.niwaka.com"
+    ],
+    "storeAvailabilityNote": "京都传统金工；需确认现货或定制周期"
+  },
+  {
+    "id": "niwaka-sougo-m",
+    "brandId": "niwaka",
+    "collection": "Sougo",
+    "name": "Sougo 玫瑰金",
+    "genderFit": [
+      "male"
+    ],
+    "materials": [
+      "18K玫瑰金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "传统",
+      "奏合"
+    ],
+    "meaningTags": [
+      "和谐",
+      "共鸣"
+    ],
+    "price": {
+      "display": "约 ¥12,500",
+      "currency": "CNY",
+      "amount": 12500,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/niwaka-sougo.webp",
+    "imageStatus": "local",
+    "officialUrl": "https://www.niwaka.com/",
+    "description": "奏合设计，和谐共鸣。",
+    "sourceUrls": [
+      "https://www.niwaka.com"
+    ],
+    "storeAvailabilityNote": "京都传统金工；需确认现货或定制周期"
+  },
+  {
+    "id": "niwaka-sougo-f",
+    "brandId": "niwaka",
+    "collection": "Sougo",
+    "name": "Sougo 玫瑰金",
+    "genderFit": [
+      "female"
+    ],
+    "materials": [
+      "18K玫瑰金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "传统",
+      "奏合"
+    ],
+    "meaningTags": [
+      "和谐",
+      "共鸣"
+    ],
+    "price": {
+      "display": "约 ¥12,500",
+      "currency": "CNY",
+      "amount": 12500,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/niwaka-sougo.webp",
+    "imageStatus": "local",
+    "officialUrl": "https://www.niwaka.com/",
+    "description": "奏合设计，传统优雅。",
+    "sourceUrls": [
+      "https://www.niwaka.com"
+    ],
+    "storeAvailabilityNote": "京都传统金工；需确认现货或定制周期"
+  },
+  {
+    "id": "niwaka-uizakura-m",
+    "brandId": "niwaka",
+    "collection": "Uizakura",
+    "name": "Uizakura 铂金",
+    "genderFit": [
+      "male"
+    ],
+    "materials": [
+      "铂金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "传统",
+      "樱花"
+    ],
+    "meaningTags": [
+      "初樱",
+      "美好"
+    ],
+    "price": {
+      "display": "约 ¥11,500",
+      "currency": "CNY",
+      "amount": 11500,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/niwaka-uizakura.webp",
+    "imageStatus": "local",
+    "officialUrl": "https://www.niwaka.com/",
+    "description": "初樱设计，美好绽放。",
+    "sourceUrls": [
+      "https://www.niwaka.com"
+    ],
+    "storeAvailabilityNote": "京都传统金工；需确认现货或定制周期"
+  },
+  {
+    "id": "niwaka-uizakura-f",
+    "brandId": "niwaka",
+    "collection": "Uizakura",
+    "name": "Uizakura 铂金",
+    "genderFit": [
+      "female"
+    ],
+    "materials": [
+      "铂金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "传统",
+      "樱花"
+    ],
+    "meaningTags": [
+      "初樱",
+      "美好"
+    ],
+    "price": {
+      "display": "约 ¥11,500",
+      "currency": "CNY",
+      "amount": 11500,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/niwaka-uizakura.webp",
+    "imageStatus": "local",
+    "officialUrl": "https://www.niwaka.com/",
+    "description": "初樱设计，优雅绽放。",
+    "sourceUrls": [
+      "https://www.niwaka.com"
+    ],
+    "storeAvailabilityNote": "京都传统金工；需确认现货或定制周期"
+  },
+  {
+    "id": "niwaka-yui-m",
+    "brandId": "niwaka",
+    "collection": "Yui",
+    "name": "Yui 黄金",
+    "genderFit": [
+      "male"
+    ],
+    "materials": [
+      "18K黄金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "传统",
+      "结"
+    ],
+    "meaningTags": [
+      "结缘",
+      "连结"
+    ],
+    "price": {
+      "display": "约 ¥13,000",
+      "currency": "CNY",
+      "amount": 13000,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/niwaka-yui.webp",
+    "imageStatus": "local",
+    "officialUrl": "https://www.niwaka.com/",
+    "description": "结设计，象征结缘。",
+    "sourceUrls": [
+      "https://www.niwaka.com"
+    ],
+    "storeAvailabilityNote": "京都传统金工；需确认现货或定制周期"
+  },
+  {
+    "id": "niwaka-yui-f",
+    "brandId": "niwaka",
+    "collection": "Yui",
+    "name": "Yui 黄金",
+    "genderFit": [
+      "female"
+    ],
+    "materials": [
+      "18K黄金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "传统",
+      "结"
+    ],
+    "meaningTags": [
+      "结缘",
+      "连结"
+    ],
+    "price": {
+      "display": "约 ¥13,000",
+      "currency": "CNY",
+      "amount": 13000,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/niwaka-yui.webp",
+    "imageStatus": "local",
+    "officialUrl": "https://www.niwaka.com/",
+    "description": "结设计，传统优雅。",
+    "sourceUrls": [
+      "https://www.niwaka.com"
+    ],
+    "storeAvailabilityNote": "京都传统金工；需确认现货或定制周期"
+  },
+  {
+    "id": "kuno-affinita-m",
+    "brandId": "kuno",
+    "collection": "Affinita",
+    "name": "Affinita 白金",
+    "genderFit": [
+      "male"
+    ],
+    "materials": [
+      "18K白金"
+    ],
+    "stones": [
+      "钻石"
+    ],
+    "styleTags": [
+      "现代",
+      "双色"
+    ],
+    "meaningTags": [
+      "交汇",
+      "融合"
+    ],
+    "price": {
+      "display": "约 ¥14,000",
+      "currency": "CNY",
+      "amount": 14000,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/kuno-affinita-combi.jpg",
+    "imageStatus": "local",
+    "officialUrl": "https://www.k-uno.co.jp/bridal/product/marriage/",
+    "description": "双色交汇设计，现代融合。",
+    "sourceUrls": [
+      "https://www.k-uno.co.jp"
+    ],
+    "storeAvailabilityNote": "日本最大定制珠宝；支持来图定制"
+  },
+  {
+    "id": "kuno-affinita-f",
+    "brandId": "kuno",
+    "collection": "Affinita",
+    "name": "Affinita 白金",
+    "genderFit": [
+      "female"
+    ],
+    "materials": [
+      "18K白金"
+    ],
+    "stones": [
+      "钻石"
+    ],
+    "styleTags": [
+      "现代",
+      "双色"
+    ],
+    "meaningTags": [
+      "交汇",
+      "融合"
+    ],
+    "price": {
+      "display": "约 ¥14,000",
+      "currency": "CNY",
+      "amount": 14000,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/kuno-affinita-combi.jpg",
+    "imageStatus": "local",
+    "officialUrl": "https://www.k-uno.co.jp/bridal/product/marriage/",
+    "description": "双色交汇设计，现代优雅。",
+    "sourceUrls": [
+      "https://www.k-uno.co.jp"
+    ],
+    "storeAvailabilityNote": "日本最大定制珠宝；支持来图定制"
+  },
+  {
+    "id": "kuno-due-aurore-m",
+    "brandId": "kuno",
+    "collection": "Due Aurore",
+    "name": "Due Aurore 玫瑰金",
+    "genderFit": [
+      "male"
+    ],
+    "materials": [
+      "18K玫瑰金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "现代",
+      "曙光"
+    ],
+    "meaningTags": [
+      "希望",
+      "新生"
+    ],
+    "price": {
+      "display": "约 ¥14,000",
+      "currency": "CNY",
+      "amount": 14000,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/kuno-due-aurore.jpg",
+    "imageStatus": "local",
+    "officialUrl": "https://www.k-uno.co.jp/bridal/product/marriage/",
+    "description": "两道曙光设计，希望新生。",
+    "sourceUrls": [
+      "https://www.k-uno.co.jp"
+    ],
+    "storeAvailabilityNote": "日本最大定制珠宝；支持来图定制"
+  },
+  {
+    "id": "kuno-due-aurore-f",
+    "brandId": "kuno",
+    "collection": "Due Aurore",
+    "name": "Due Aurore 玫瑰金",
+    "genderFit": [
+      "female"
+    ],
+    "materials": [
+      "18K玫瑰金"
+    ],
+    "stones": [
+      "钻石"
+    ],
+    "styleTags": [
+      "现代",
+      "曙光"
+    ],
+    "meaningTags": [
+      "希望",
+      "新生"
+    ],
+    "price": {
+      "display": "约 ¥32,000",
+      "currency": "CNY",
+      "amount": 32000,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/kuno-due-aurore.jpg",
+    "imageStatus": "local",
+    "officialUrl": "https://www.k-uno.co.jp/bridal/product/marriage/",
+    "description": "两道曙光设计，镶嵌钻石，璀璨优雅。",
+    "sourceUrls": [
+      "https://www.k-uno.co.jp"
+    ],
+    "storeAvailabilityNote": "日本最大定制珠宝；支持来图定制"
+  },
+  {
+    "id": "kuno-junito-musubi-m",
+    "brandId": "kuno",
+    "collection": "Junito Musubi",
+    "name": "Junito Musubi 铂金",
+    "genderFit": [
+      "male"
+    ],
+    "materials": [
+      "铂金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "传统",
+      "线条"
+    ],
+    "meaningTags": [
+      "相结",
+      "连结"
+    ],
+    "price": {
+      "display": "约 ¥12,000",
+      "currency": "CNY",
+      "amount": 12000,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/kuno-junito-musubi.jpg",
+    "imageStatus": "local",
+    "officialUrl": "https://www.k-uno.co.jp/bridal/product/marriage/",
+    "description": "纯线相结设计，传统连结。",
+    "sourceUrls": [
+      "https://www.k-uno.co.jp"
+    ],
+    "storeAvailabilityNote": "日本最大定制珠宝；支持来图定制"
+  },
+  {
+    "id": "kuno-junito-musubi-f",
+    "brandId": "kuno",
+    "collection": "Junito Musubi",
+    "name": "Junito Musubi 铂金",
+    "genderFit": [
+      "female"
+    ],
+    "materials": [
+      "铂金"
+    ],
+    "stones": [
+      "钻石"
+    ],
+    "styleTags": [
+      "传统",
+      "线条"
+    ],
+    "meaningTags": [
+      "相结",
+      "连结"
+    ],
+    "price": {
+      "display": "约 ¥28,000",
+      "currency": "CNY",
+      "amount": 28000,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/kuno-junito-musubi.jpg",
+    "imageStatus": "local",
+    "officialUrl": "https://www.k-uno.co.jp/bridal/product/marriage/",
+    "description": "纯线相结设计，镶嵌钻石，优雅连结。",
+    "sourceUrls": [
+      "https://www.k-uno.co.jp"
+    ],
+    "storeAvailabilityNote": "日本最大定制珠宝；支持来图定制"
+  },
+  {
+    "id": "kuno-junito-wave-m",
+    "brandId": "kuno",
+    "collection": "Junito Wave",
+    "name": "Junito Wave 铂金",
+    "genderFit": [
+      "male"
+    ],
+    "materials": [
+      "铂金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "现代",
+      "波浪"
+    ],
+    "meaningTags": [
+      "流动",
+      "前行"
+    ],
+    "price": {
+      "display": "约 ¥12,000",
+      "currency": "CNY",
+      "amount": 12000,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/kuno-junito-wave.jpg",
+    "imageStatus": "local",
+    "officialUrl": "https://www.k-uno.co.jp/bridal/product/marriage/",
+    "description": "流动线条设计，现代前行。",
+    "sourceUrls": [
+      "https://www.k-uno.co.jp"
+    ],
+    "storeAvailabilityNote": "日本最大定制珠宝；支持来图定制"
+  },
+  {
+    "id": "kuno-junito-wave-f",
+    "brandId": "kuno",
+    "collection": "Junito Wave",
+    "name": "Junito Wave 铂金",
+    "genderFit": [
+      "female"
+    ],
+    "materials": [
+      "铂金"
+    ],
+    "stones": [
+      "钻石"
+    ],
+    "styleTags": [
+      "现代",
+      "波浪"
+    ],
+    "meaningTags": [
+      "流动",
+      "前行"
+    ],
+    "price": {
+      "display": "约 ¥29,000",
+      "currency": "CNY",
+      "amount": 29000,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/kuno-junito-wave.jpg",
+    "imageStatus": "local",
+    "officialUrl": "https://www.k-uno.co.jp/bridal/product/marriage/",
+    "description": "流动线条设计，镶嵌钻石，优雅前行。",
+    "sourceUrls": [
+      "https://www.k-uno.co.jp"
+    ],
+    "storeAvailabilityNote": "日本最大定制珠宝；支持来图定制"
+  },
+  {
+    "id": "mokumeganeya-m",
+    "brandId": "mokumeganeya",
+    "collection": "Mokume",
+    "name": "Mokume 木纹金",
+    "genderFit": [
+      "male"
+    ],
+    "materials": [
+      "木纹金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "传统",
+      "木纹金"
+    ],
+    "meaningTags": [
+      "独一无二",
+      "自然"
+    ],
+    "price": {
+      "display": "约 ¥25,000",
+      "currency": "CNY",
+      "amount": 25000,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/mokumeganeya.png",
+    "imageStatus": "local",
+    "officialUrl": "https://www.mokumeganeya.com/",
+    "description": "木纹金工艺，每一枚独一无二。",
+    "sourceUrls": [
+      "https://www.mokumeganeya.com"
+    ],
+    "storeAvailabilityNote": "北京无专柜；可通过官网国际订购或日本代购"
+  },
+  {
+    "id": "mokumeganeya-f",
+    "brandId": "mokumeganeya",
+    "collection": "Mokume",
+    "name": "Mokume 木纹金",
+    "genderFit": [
+      "female"
+    ],
+    "materials": [
+      "木纹金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "传统",
+      "木纹金"
+    ],
+    "meaningTags": [
+      "独一无二",
+      "自然"
+    ],
+    "price": {
+      "display": "约 ¥25,000",
+      "currency": "CNY",
+      "amount": 25000,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/mokumeganeya.png",
+    "imageStatus": "local",
+    "officialUrl": "https://www.mokumeganeya.com/",
+    "description": "木纹金工艺，自然优雅。",
+    "sourceUrls": [
+      "https://www.mokumeganeya.com"
+    ],
+    "storeAvailabilityNote": "北京无专柜；可通过官网国际订购或日本代购"
+  },
+  {
+    "id": "chaumet-liens-white-m",
+    "brandId": "chaumet",
+    "collection": "Liens",
+    "name": "Liens 白金",
+    "genderFit": [
+      "male"
+    ],
+    "materials": [
+      "18K白金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "经典",
+      "连结"
+    ],
+    "meaningTags": [
+      "缘分",
+      "连结"
+    ],
+    "price": {
+      "display": "约 ¥16,800",
+      "currency": "CNY",
+      "amount": 16800,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/placeholders/chaumet-liens-white-m.svg",
+    "imageStatus": "placeholder",
+    "officialUrl": "https://www.chaumet.com/en/wedding-rings.html",
+    "description": "连结设计，象征缘分。",
+    "sourceUrls": [
+      "https://www.chaumet.com"
+    ],
+    "storeAvailabilityNote": "Liens与Bee My Love系列需确认圈号"
+  },
+  {
+    "id": "chaumet-liens-white-f",
+    "brandId": "chaumet",
+    "collection": "Liens",
+    "name": "Liens 白金",
+    "genderFit": [
+      "female"
+    ],
+    "materials": [
+      "18K白金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "经典",
+      "连结"
+    ],
+    "meaningTags": [
+      "缘分",
+      "连结"
+    ],
+    "price": {
+      "display": "约 ¥16,800",
+      "currency": "CNY",
+      "amount": 16800,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/placeholders/chaumet-liens-white-f.svg",
+    "imageStatus": "placeholder",
+    "officialUrl": "https://www.chaumet.com/en/wedding-rings.html",
+    "description": "连结设计，优雅缘分。",
+    "sourceUrls": [
+      "https://www.chaumet.com"
+    ],
+    "storeAvailabilityNote": "Liens与Bee My Love系列需确认圈号"
+  },
+  {
+    "id": "chaumet-bee-rose-m",
+    "brandId": "chaumet",
+    "collection": "Bee My Love",
+    "name": "Bee My Love 玫瑰金",
+    "genderFit": [
+      "male"
+    ],
+    "materials": [
+      "18K玫瑰金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "经典",
+      "蜂巢"
+    ],
+    "meaningTags": [
+      "甜蜜",
+      "筑爱"
+    ],
+    "price": {
+      "display": "约 ¥15,200",
+      "currency": "CNY",
+      "amount": 15200,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/placeholders/chaumet-bee-rose-m.svg",
+    "imageStatus": "placeholder",
+    "officialUrl": "https://www.chaumet.com/en/wedding-rings.html",
+    "description": "蜂巢设计，象征甜蜜筑爱。",
+    "sourceUrls": [
+      "https://www.chaumet.com"
+    ],
+    "storeAvailabilityNote": "Liens与Bee My Love系列需确认圈号"
+  },
+  {
+    "id": "chaumet-bee-rose-f",
+    "brandId": "chaumet",
+    "collection": "Bee My Love",
+    "name": "Bee My Love 玫瑰金",
+    "genderFit": [
+      "female"
+    ],
+    "materials": [
+      "18K玫瑰金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "经典",
+      "蜂巢"
+    ],
+    "meaningTags": [
+      "甜蜜",
+      "筑爱"
+    ],
+    "price": {
+      "display": "约 ¥15,200",
+      "currency": "CNY",
+      "amount": 15200,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/placeholders/chaumet-bee-rose-f.svg",
+    "imageStatus": "placeholder",
+    "officialUrl": "https://www.chaumet.com/en/wedding-rings.html",
+    "description": "蜂巢设计，优雅甜蜜。",
+    "sourceUrls": [
+      "https://www.chaumet.com"
+    ],
+    "storeAvailabilityNote": "Liens与Bee My Love系列需确认圈号"
+  },
+  {
+    "id": "piaget-possession-white-m",
+    "brandId": "piaget",
+    "collection": "Possession",
+    "name": "Possession 白金",
+    "genderFit": [
+      "male"
+    ],
+    "materials": [
+      "18K白金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "时尚",
+      "旋转"
+    ],
+    "meaningTags": [
+      "转动",
+      "幸运"
+    ],
+    "price": {
+      "display": "约 ¥19,800",
+      "currency": "CNY",
+      "amount": 19800,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/placeholders/piaget-possession-white-m.svg",
+    "imageStatus": "placeholder",
+    "officialUrl": "https://www.piaget.cn/zh-cn/%E5%A9%9A%E6%88%92.html",
+    "description": "旋转环设计，象征转动幸运。",
+    "sourceUrls": [
+      "https://www.piaget.cn"
+    ],
+    "storeAvailabilityNote": "Possession旋转环系列可预约体验"
+  },
+  {
+    "id": "piaget-possession-white-f",
+    "brandId": "piaget",
+    "collection": "Possession",
+    "name": "Possession 白金",
+    "genderFit": [
+      "female"
+    ],
+    "materials": [
+      "18K白金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "时尚",
+      "旋转"
+    ],
+    "meaningTags": [
+      "转动",
+      "幸运"
+    ],
+    "price": {
+      "display": "约 ¥19,800",
+      "currency": "CNY",
+      "amount": 19800,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/placeholders/piaget-possession-white-f.svg",
+    "imageStatus": "placeholder",
+    "officialUrl": "https://www.piaget.cn/zh-cn/%E5%A9%9A%E6%88%92.html",
+    "description": "旋转环设计，优雅幸运。",
+    "sourceUrls": [
+      "https://www.piaget.cn"
+    ],
+    "storeAvailabilityNote": "Possession旋转环系列可预约体验"
+  },
+  {
+    "id": "vancleef-perlee-yellow-m",
+    "brandId": "vancleef",
+    "collection": "Perlée",
+    "name": "Perlée 黄金",
+    "genderFit": [
+      "male"
+    ],
+    "materials": [
+      "18K黄金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "经典",
+      "金珠"
+    ],
+    "meaningTags": [
+      "圆满",
+      "珍贵"
+    ],
+    "price": {
+      "display": "约 ¥17,500",
+      "currency": "CNY",
+      "amount": 17500,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/placeholders/vancleef-perlee-yellow-m.svg",
+    "imageStatus": "placeholder",
+    "officialUrl": "https://www.vancleefarpels.cn/cn/zh/%E5%A9%9A%E6%88%92.html",
+    "description": "金珠设计，象征圆满珍贵。",
+    "sourceUrls": [
+      "https://www.vancleefarpels.cn"
+    ],
+    "storeAvailabilityNote": "Perlée与Estelle系列需预约鉴赏"
+  },
+  {
+    "id": "vancleef-perlee-yellow-f",
+    "brandId": "vancleef",
+    "collection": "Perlée",
+    "name": "Perlée 黄金",
+    "genderFit": [
+      "female"
+    ],
+    "materials": [
+      "18K黄金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "经典",
+      "金珠"
+    ],
+    "meaningTags": [
+      "圆满",
+      "珍贵"
+    ],
+    "price": {
+      "display": "约 ¥17,500",
+      "currency": "CNY",
+      "amount": 17500,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/placeholders/vancleef-perlee-yellow-f.svg",
+    "imageStatus": "placeholder",
+    "officialUrl": "https://www.vancleefarpels.cn/cn/zh/%E5%A9%9A%E6%88%92.html",
+    "description": "金珠设计，优雅圆满。",
+    "sourceUrls": [
+      "https://www.vancleefarpels.cn"
+    ],
+    "storeAvailabilityNote": "Perlée与Estelle系列需预约鉴赏"
+  },
+  {
+    "id": "harrywinston-classic-platinum-m",
+    "brandId": "harrywinston",
+    "collection": "Classic",
+    "name": "Classic 铂金",
+    "genderFit": [
+      "male"
+    ],
+    "materials": [
+      "铂金"
+    ],
+    "stones": [
+      "钻石"
+    ],
+    "styleTags": [
+      "奢华",
+      "经典"
+    ],
+    "meaningTags": [
+      "顶级",
+      "珍贵"
+    ],
+    "price": {
+      "display": "约 ¥35,000",
+      "currency": "CNY",
+      "amount": 35000,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/placeholders/harrywinston-classic-platinum-m.svg",
+    "imageStatus": "placeholder",
+    "officialUrl": "https://www.harrywinston.cn/engagement-rings/wedding-bands/",
+    "description": "顶级钻石品牌，经典奢华。",
+    "sourceUrls": [
+      "https://www.harrywinston.cn"
+    ],
+    "storeAvailabilityNote": "需预约私人鉴赏；顶级钻石品牌"
+  },
+  {
+    "id": "harrywinston-classic-platinum-f",
+    "brandId": "harrywinston",
+    "collection": "Classic",
+    "name": "Classic 铂金",
+    "genderFit": [
+      "female"
+    ],
+    "materials": [
+      "铂金"
+    ],
+    "stones": [
+      "钻石"
+    ],
+    "styleTags": [
+      "奢华",
+      "经典"
+    ],
+    "meaningTags": [
+      "顶级",
+      "珍贵"
+    ],
+    "price": {
+      "display": "约 ¥35,000",
+      "currency": "CNY",
+      "amount": 35000,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/placeholders/harrywinston-classic-platinum-f.svg",
+    "imageStatus": "placeholder",
+    "officialUrl": "https://www.harrywinston.cn/engagement-rings/wedding-bands/",
+    "description": "顶级钻石品牌，优雅奢华。",
+    "sourceUrls": [
+      "https://www.harrywinston.cn"
+    ],
+    "storeAvailabilityNote": "需预约私人鉴赏；顶级钻石品牌"
+  },
+  {
+    "id": "graff-signature-white-m",
+    "brandId": "graff",
+    "collection": "Signature",
+    "name": "Signature 白金",
+    "genderFit": [
+      "male"
+    ],
+    "materials": [
+      "18K白金"
+    ],
+    "stones": [
+      "钻石"
+    ],
+    "styleTags": [
+      "奢华",
+      "签名"
+    ],
+    "meaningTags": [
+      "独特",
+      "珍贵"
+    ],
+    "price": {
+      "display": "约 ¥28,000",
+      "currency": "CNY",
+      "amount": 28000,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/placeholders/graff-signature-white-m.svg",
+    "imageStatus": "placeholder",
+    "officialUrl": "https://www.graff.cn/wedding-jewellery/",
+    "description": "签名设计，独特珍贵。",
+    "sourceUrls": [
+      "https://www.graff.cn"
+    ],
+    "storeAvailabilityNote": "Laurence Graff Signature系列可预约"
+  },
+  {
+    "id": "graff-signature-white-f",
+    "brandId": "graff",
+    "collection": "Signature",
+    "name": "Signature 白金",
+    "genderFit": [
+      "female"
+    ],
+    "materials": [
+      "18K白金"
+    ],
+    "stones": [
+      "钻石"
+    ],
+    "styleTags": [
+      "奢华",
+      "签名"
+    ],
+    "meaningTags": [
+      "独特",
+      "珍贵"
+    ],
+    "price": {
+      "display": "约 ¥28,000",
+      "currency": "CNY",
+      "amount": 28000,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/placeholders/graff-signature-white-f.svg",
+    "imageStatus": "placeholder",
+    "officialUrl": "https://www.graff.cn/wedding-jewellery/",
+    "description": "签名设计，优雅独特。",
+    "sourceUrls": [
+      "https://www.graff.cn"
+    ],
+    "storeAvailabilityNote": "Laurence Graff Signature系列可预约"
+  },
+  {
+    "id": "pomellato-iconica-rose-m",
+    "brandId": "pomellato",
+    "collection": "Iconica",
+    "name": "Iconica 玫瑰金",
+    "genderFit": [
+      "male"
+    ],
+    "materials": [
+      "18K玫瑰金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "时尚",
+      "Iconica"
+    ],
+    "meaningTags": [
+      "个性",
+      "自由"
+    ],
+    "price": {
+      "display": "约 ¥14,500",
+      "currency": "CNY",
+      "amount": 14500,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/placeholders/pomellato-iconica-rose-m.svg",
+    "imageStatus": "placeholder",
+    "officialUrl": "https://www.pomellato.cn/zh-cn/%E5%A9%9A%E6%88%92.html",
+    "description": "Iconica设计，个性自由。",
+    "sourceUrls": [
+      "https://www.pomellato.cn"
+    ],
+    "storeAvailabilityNote": "Iconica系列可到店试戴"
+  },
+  {
+    "id": "pomellato-iconica-rose-f",
+    "brandId": "pomellato",
+    "collection": "Iconica",
+    "name": "Iconica 玫瑰金",
+    "genderFit": [
+      "female"
+    ],
+    "materials": [
+      "18K玫瑰金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "时尚",
+      "Iconica"
+    ],
+    "meaningTags": [
+      "个性",
+      "自由"
+    ],
+    "price": {
+      "display": "约 ¥14,500",
+      "currency": "CNY",
+      "amount": 14500,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/placeholders/pomellato-iconica-rose-f.svg",
+    "imageStatus": "placeholder",
+    "officialUrl": "https://www.pomellato.cn/zh-cn/%E5%A9%9A%E6%88%92.html",
+    "description": "Iconica设计，优雅个性。",
+    "sourceUrls": [
+      "https://www.pomellato.cn"
+    ],
+    "storeAvailabilityNote": "Iconica系列可到店试戴"
+  },
+  {
+    "id": "gucci-link-love-yellow-m",
+    "brandId": "gucci",
+    "collection": "Link to Love",
+    "name": "Link to Love 黄金",
+    "genderFit": [
+      "male"
+    ],
+    "materials": [
+      "18K黄金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "时尚",
+      "几何"
+    ],
+    "meaningTags": [
+      "连结",
+      "爱"
+    ],
+    "price": {
+      "display": "约 ¥8,500",
+      "currency": "CNY",
+      "amount": 8500,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/placeholders/gucci-link-love-yellow-m.svg",
+    "imageStatus": "placeholder",
+    "officialUrl": "https://www.gucci.cn/cn/zh/jewelry-watches/fine-jewelry/rings.html",
+    "description": "几何设计，象征连结与爱。",
+    "sourceUrls": [
+      "https://www.gucci.cn"
+    ],
+    "storeAvailabilityNote": "Link to Love系列在时装珠宝区有售"
+  },
+  {
+    "id": "gucci-link-love-yellow-f",
+    "brandId": "gucci",
+    "collection": "Link to Love",
+    "name": "Link to Love 黄金",
+    "genderFit": [
+      "female"
+    ],
+    "materials": [
+      "18K黄金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "时尚",
+      "几何"
+    ],
+    "meaningTags": [
+      "连结",
+      "爱"
+    ],
+    "price": {
+      "display": "约 ¥8,500",
+      "currency": "CNY",
+      "amount": 8500,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/placeholders/gucci-link-love-yellow-f.svg",
+    "imageStatus": "placeholder",
+    "officialUrl": "https://www.gucci.cn/cn/zh/jewelry-watches/fine-jewelry/rings.html",
+    "description": "几何设计，优雅连结。",
+    "sourceUrls": [
+      "https://www.gucci.cn"
+    ],
+    "storeAvailabilityNote": "Link to Love系列在时装珠宝区有售"
+  },
+  {
+    "id": "dior-rose-rose-m",
+    "brandId": "dior",
+    "collection": "Rose des vents",
+    "name": "Rose des vents 玫瑰金",
+    "genderFit": [
+      "male"
+    ],
+    "materials": [
+      "18K玫瑰金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "浪漫",
+      "罗盘"
+    ],
+    "meaningTags": [
+      "方向",
+      "守护"
+    ],
+    "price": {
+      "display": "约 ¥12,000",
+      "currency": "CNY",
+      "amount": 12000,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/placeholders/dior-rose-rose-m.svg",
+    "imageStatus": "placeholder",
+    "officialUrl": "https://www.dior.cn/zh_cn/%E9%AB%98%E7%BA%A7%E7%8F%A0%E5%AE%9D/%E6%88%92%E6%8C%87.html",
+    "description": "罗盘设计，象征方向与守护。",
+    "sourceUrls": [
+      "https://www.dior.cn"
+    ],
+    "storeAvailabilityNote": "Rose des vents系列在高级珠宝区有售"
+  },
+  {
+    "id": "dior-rose-rose-f",
+    "brandId": "dior",
+    "collection": "Rose des vents",
+    "name": "Rose des vents 玫瑰金",
+    "genderFit": [
+      "female"
+    ],
+    "materials": [
+      "18K玫瑰金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "浪漫",
+      "罗盘"
+    ],
+    "meaningTags": [
+      "方向",
+      "守护"
+    ],
+    "price": {
+      "display": "约 ¥12,000",
+      "currency": "CNY",
+      "amount": 12000,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/placeholders/dior-rose-rose-f.svg",
+    "imageStatus": "placeholder",
+    "officialUrl": "https://www.dior.cn/zh_cn/%E9%AB%98%E7%BA%A7%E7%8F%A0%E5%AE%9D/%E6%88%92%E6%8C%87.html",
+    "description": "罗盘设计，优雅浪漫。",
+    "sourceUrls": [
+      "https://www.dior.cn"
+    ],
+    "storeAvailabilityNote": "Rose des vents系列在高级珠宝区有售"
+  },
+  {
+    "id": "chanel-coco-white-m",
+    "brandId": "chanel",
+    "collection": "Coco Crush",
+    "name": "Coco Crush 白金",
+    "genderFit": [
+      "male"
+    ],
+    "materials": [
+      "18K白金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "时尚",
+      "菱格纹"
+    ],
+    "meaningTags": [
+      "经典",
+      "力量"
+    ],
+    "price": {
+      "display": "约 ¥16,500",
+      "currency": "CNY",
+      "amount": 16500,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/placeholders/chanel-coco-white-m.svg",
+    "imageStatus": "placeholder",
+    "officialUrl": "https://www.chanel.cn/fine-jewelry/coco-crush/",
+    "description": "菱格纹设计，经典力量。",
+    "sourceUrls": [
+      "https://www.chanel.cn"
+    ],
+    "storeAvailabilityNote": "Coco Crush系列需预约试戴"
+  },
+  {
+    "id": "chanel-coco-white-f",
+    "brandId": "chanel",
+    "collection": "Coco Crush",
+    "name": "Coco Crush 白金",
+    "genderFit": [
+      "female"
+    ],
+    "materials": [
+      "18K白金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "时尚",
+      "菱格纹"
+    ],
+    "meaningTags": [
+      "经典",
+      "力量"
+    ],
+    "price": {
+      "display": "约 ¥16,500",
+      "currency": "CNY",
+      "amount": 16500,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/placeholders/chanel-coco-white-f.svg",
+    "imageStatus": "placeholder",
+    "officialUrl": "https://www.chanel.cn/fine-jewelry/coco-crush/",
+    "description": "菱格纹设计，优雅经典。",
+    "sourceUrls": [
+      "https://www.chanel.cn"
+    ],
+    "storeAvailabilityNote": "Coco Crush系列需预约试戴"
+  },
+  {
+    "id": "hermes-kelly-rose-m",
+    "brandId": "hermes",
+    "collection": "Kelly",
+    "name": "Kelly 玫瑰金",
+    "genderFit": [
+      "male"
+    ],
+    "materials": [
+      "18K玫瑰金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "经典",
+      "Kelly"
+    ],
+    "meaningTags": [
+      "优雅",
+      "传承"
+    ],
+    "price": {
+      "display": "约 ¥18,000",
+      "currency": "CNY",
+      "amount": 18000,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/placeholders/hermes-kelly-rose-m.svg",
+    "imageStatus": "placeholder",
+    "officialUrl": "https://www.hermes.cn/cn/zh/%E7%8F%A0%E5%AE%9D/%E6%88%92%E6%8C%87/",
+    "description": "Kelly设计，优雅传承。",
+    "sourceUrls": [
+      "https://www.hermes.cn"
+    ],
+    "storeAvailabilityNote": "Kelly与Chaîne d'ancre系列需确认现货"
+  },
+  {
+    "id": "hermes-kelly-rose-f",
+    "brandId": "hermes",
+    "collection": "Kelly",
+    "name": "Kelly 玫瑰金",
+    "genderFit": [
+      "female"
+    ],
+    "materials": [
+      "18K玫瑰金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "经典",
+      "Kelly"
+    ],
+    "meaningTags": [
+      "优雅",
+      "传承"
+    ],
+    "price": {
+      "display": "约 ¥18,000",
+      "currency": "CNY",
+      "amount": 18000,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/placeholders/hermes-kelly-rose-f.svg",
+    "imageStatus": "placeholder",
+    "officialUrl": "https://www.hermes.cn/cn/zh/%E7%8F%A0%E5%AE%9D/%E6%88%92%E6%8C%87/",
+    "description": "Kelly设计，优雅传承。",
+    "sourceUrls": [
+      "https://www.hermes.cn"
+    ],
+    "storeAvailabilityNote": "Kelly与Chaîne d'ancre系列需确认现货"
+  },
+  {
+    "id": "swarovski-stilla-m",
+    "brandId": "swarovski",
+    "collection": "Stilla",
+    "name": "Stilla 培育钻石",
+    "genderFit": [
+      "male"
+    ],
+    "materials": [
+      "培育钻石"
+    ],
+    "stones": [
+      "培育钻石"
+    ],
+    "styleTags": [
+      "现代",
+      "培育钻石"
+    ],
+    "meaningTags": [
+      "可持续",
+      "璀璨"
+    ],
+    "price": {
+      "display": "约 ¥3,500",
+      "currency": "CNY",
+      "amount": 3500,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/placeholders/swarovski-stilla-m.svg",
+    "imageStatus": "placeholder",
+    "officialUrl": "https://www.swarovski.cn/",
+    "description": "培育钻石设计，可持续璀璨。",
+    "sourceUrls": [
+      "https://www.swarovski.cn"
+    ],
+    "storeAvailabilityNote": "各大商场均有专柜；培育钻石系列可查询"
+  },
+  {
+    "id": "swarovski-stilla-f",
+    "brandId": "swarovski",
+    "collection": "Stilla",
+    "name": "Stilla 培育钻石",
+    "genderFit": [
+      "female"
+    ],
+    "materials": [
+      "培育钻石"
+    ],
+    "stones": [
+      "培育钻石"
+    ],
+    "styleTags": [
+      "现代",
+      "培育钻石"
+    ],
+    "meaningTags": [
+      "可持续",
+      "璀璨"
+    ],
+    "price": {
+      "display": "约 ¥3,500",
+      "currency": "CNY",
+      "amount": 3500,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/placeholders/swarovski-stilla-f.svg",
+    "imageStatus": "placeholder",
+    "officialUrl": "https://www.swarovski.cn/",
+    "description": "培育钻石设计，优雅可持续。",
+    "sourceUrls": [
+      "https://www.swarovski.cn"
+    ],
+    "storeAvailabilityNote": "各大商场均有专柜；培育钻石系列可查询"
+  },
+  {
+    "id": "pandora-bridal-silver-m",
+    "brandId": "pandora",
+    "collection": "Bridal",
+    "name": "Bridal 925银",
+    "genderFit": [
+      "male"
+    ],
+    "materials": [
+      "925银"
+    ],
+    "stones": [],
+    "styleTags": [
+      "简约",
+      "亲民"
+    ],
+    "meaningTags": [
+      "承诺",
+      "开始"
+    ],
+    "price": {
+      "display": "约 ¥1,200",
+      "currency": "CNY",
+      "amount": 1200,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/placeholders/pandora-bridal-silver-m.svg",
+    "imageStatus": "placeholder",
+    "officialUrl": "https://www.pandora.cn/zh/%E6%88%92%E6%8C%87/",
+    "description": "925银设计，简约亲民。",
+    "sourceUrls": [
+      "https://www.pandora.cn"
+    ],
+    "storeAvailabilityNote": "Bridal系列在专柜有售；价格亲民"
+  },
+  {
+    "id": "pandora-bridal-silver-f",
+    "brandId": "pandora",
+    "collection": "Bridal",
+    "name": "Bridal 925银",
+    "genderFit": [
+      "female"
+    ],
+    "materials": [
+      "925银"
+    ],
+    "stones": [],
+    "styleTags": [
+      "简约",
+      "亲民"
+    ],
+    "meaningTags": [
+      "承诺",
+      "开始"
+    ],
+    "price": {
+      "display": "约 ¥1,200",
+      "currency": "CNY",
+      "amount": 1200,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/placeholders/pandora-bridal-silver-f.svg",
+    "imageStatus": "placeholder",
+    "officialUrl": "https://www.pandora.cn/zh/%E6%88%92%E6%8C%87/",
+    "description": "925银设计，优雅简约。",
+    "sourceUrls": [
+      "https://www.pandora.cn"
+    ],
+    "storeAvailabilityNote": "Bridal系列在专柜有售；价格亲民"
+  },
+  {
+    "id": "apm-monaco-silver-m",
+    "brandId": "apm",
+    "collection": "Monaco",
+    "name": "Monaco 925银",
+    "genderFit": [
+      "male"
+    ],
+    "materials": [
+      "925银"
+    ],
+    "stones": [],
+    "styleTags": [
+      "时尚",
+      "简约"
+    ],
+    "meaningTags": [
+      "个性",
+      "自由"
+    ],
+    "price": {
+      "display": "约 ¥1,800",
+      "currency": "CNY",
+      "amount": 1800,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/placeholders/apm-monaco-silver-m.svg",
+    "imageStatus": "placeholder",
+    "officialUrl": "https://www.apm.mc/",
+    "description": "925银设计，时尚简约。",
+    "sourceUrls": [
+      "https://www.apm.mc"
+    ],
+    "storeAvailabilityNote": "时尚设计；适合日常佩戴"
+  },
+  {
+    "id": "apm-monaco-silver-f",
+    "brandId": "apm",
+    "collection": "Monaco",
+    "name": "Monaco 925银",
+    "genderFit": [
+      "female"
+    ],
+    "materials": [
+      "925银"
+    ],
+    "stones": [],
+    "styleTags": [
+      "时尚",
+      "简约"
+    ],
+    "meaningTags": [
+      "个性",
+      "自由"
+    ],
+    "price": {
+      "display": "约 ¥1,800",
+      "currency": "CNY",
+      "amount": 1800,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/placeholders/apm-monaco-silver-f.svg",
+    "imageStatus": "placeholder",
+    "officialUrl": "https://www.apm.mc/",
+    "description": "925银设计，优雅时尚。",
+    "sourceUrls": [
+      "https://www.apm.mc"
+    ],
+    "storeAvailabilityNote": "时尚设计；适合日常佩戴"
+  },
+  {
+    "id": "dr-forever-white-m",
+    "brandId": "dr",
+    "collection": "FOREVER",
+    "name": "FOREVER 白金",
+    "genderFit": [
+      "male"
+    ],
+    "materials": [
+      "18K白金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "经典",
+      "承诺"
+    ],
+    "meaningTags": [
+      "唯一",
+      "永恒"
+    ],
+    "price": {
+      "display": "约 ¥8,000",
+      "currency": "CNY",
+      "amount": 8000,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/placeholders/dr-forever-white-m.svg",
+    "imageStatus": "placeholder",
+    "officialUrl": "https://www.darryring.com/",
+    "description": "一生只能定制一枚，象征唯一承诺。",
+    "sourceUrls": [
+      "https://www.darryring.com"
+    ],
+    "storeAvailabilityNote": "一生只能定制一枚；需签署真爱协议"
+  },
+  {
+    "id": "dr-forever-white-f",
+    "brandId": "dr",
+    "collection": "FOREVER",
+    "name": "FOREVER 白金",
+    "genderFit": [
+      "female"
+    ],
+    "materials": [
+      "18K白金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "经典",
+      "承诺"
+    ],
+    "meaningTags": [
+      "唯一",
+      "永恒"
+    ],
+    "price": {
+      "display": "约 ¥8,000",
+      "currency": "CNY",
+      "amount": 8000,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/placeholders/dr-forever-white-f.svg",
+    "imageStatus": "placeholder",
+    "officialUrl": "https://www.darryring.com/",
+    "description": "一生只能定制一枚，优雅唯一。",
+    "sourceUrls": [
+      "https://www.darryring.com"
+    ],
+    "storeAvailabilityNote": "一生只能定制一枚；需签署真爱协议"
+  },
+  {
+    "id": "chowtaifook-heritage-gold-m",
+    "brandId": "chowtaifook",
+    "collection": "传承",
+    "name": "传承 黄金",
+    "genderFit": [
+      "male"
+    ],
+    "materials": [
+      "足金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "传统",
+      "传承"
+    ],
+    "meaningTags": [
+      "传承",
+      "吉祥"
+    ],
+    "price": {
+      "display": "按克计价，约 ¥5,000-8,000",
+      "currency": "CNY",
+      "amountRange": [
+        5000,
+        8000
+      ],
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/placeholders/chowtaifook-heritage-gold-m.svg",
+    "imageStatus": "placeholder",
+    "officialUrl": "https://www.ctf.com.cn/",
+    "description": "传承系列，传统吉祥。",
+    "sourceUrls": [
+      "https://www.ctf.com.cn"
+    ],
+    "storeAvailabilityNote": "传承系列与Promessa系列可到店选购"
+  },
+  {
+    "id": "chowtaifook-heritage-gold-f",
+    "brandId": "chowtaifook",
+    "collection": "传承",
+    "name": "传承 黄金",
+    "genderFit": [
+      "female"
+    ],
+    "materials": [
+      "足金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "传统",
+      "传承"
+    ],
+    "meaningTags": [
+      "传承",
+      "吉祥"
+    ],
+    "price": {
+      "display": "按克计价，约 ¥4,000-7,000",
+      "currency": "CNY",
+      "amountRange": [
+        4000,
+        7000
+      ],
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/placeholders/chowtaifook-heritage-gold-f.svg",
+    "imageStatus": "placeholder",
+    "officialUrl": "https://www.ctf.com.cn/",
+    "description": "传承系列，优雅传统。",
+    "sourceUrls": [
+      "https://www.ctf.com.cn"
+    ],
+    "storeAvailabilityNote": "传承系列与Promessa系列可到店选购"
+  },
+  {
+    "id": "chowsang-promessa-platinum-m",
+    "brandId": "chowsang",
+    "collection": "Promessa",
+    "name": "Promessa 铂金",
+    "genderFit": [
+      "male"
+    ],
+    "materials": [
+      "铂金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "经典",
+      "定制"
+    ],
+    "meaningTags": [
+      "承诺",
+      "专属"
+    ],
+    "price": {
+      "display": "约 ¥6,000-10,000",
+      "currency": "CNY",
+      "amountRange": [
+        6000,
+        10000
+      ],
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/placeholders/chowsang-promessa-platinum-m.svg",
+    "imageStatus": "placeholder",
+    "officialUrl": "https://www.chowsang.com/",
+    "description": "Promessa系列，支持定制刻字。",
+    "sourceUrls": [
+      "https://www.chowsang.com"
+    ],
+    "storeAvailabilityNote": "Promessa系列支持定制；金价按克计算"
+  },
+  {
+    "id": "chowsang-promessa-platinum-f",
+    "brandId": "chowsang",
+    "collection": "Promessa",
+    "name": "Promessa 铂金",
+    "genderFit": [
+      "female"
+    ],
+    "materials": [
+      "铂金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "经典",
+      "定制"
+    ],
+    "meaningTags": [
+      "承诺",
+      "专属"
+    ],
+    "price": {
+      "display": "约 ¥5,000-9,000",
+      "currency": "CNY",
+      "amountRange": [
+        5000,
+        9000
+      ],
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/placeholders/chowsang-promessa-platinum-f.svg",
+    "imageStatus": "placeholder",
+    "officialUrl": "https://www.chowsang.com/",
+    "description": "Promessa系列，优雅定制。",
+    "sourceUrls": [
+      "https://www.chowsang.com"
+    ],
+    "storeAvailabilityNote": "Promessa系列支持定制；金价按克计算"
+  },
+  {
+    "id": "lukfook-hexicon-white-m",
+    "brandId": "lukfook",
+    "collection": "Hexicon",
+    "name": "Hexicon 白金",
+    "genderFit": [
+      "male"
+    ],
+    "materials": [
+      "18K白金"
+    ],
+    "stones": [
+      "钻石"
+    ],
+    "styleTags": [
+      "现代",
+      "六角"
+    ],
+    "meaningTags": [
+      "独特",
+      "闪耀"
+    ],
+    "price": {
+      "display": "约 ¥7,000-12,000",
+      "currency": "CNY",
+      "amountRange": [
+        7000,
+        12000
+      ],
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/placeholders/lukfook-hexicon-white-m.svg",
+    "imageStatus": "placeholder",
+    "officialUrl": "https://www.lukfook.com/",
+    "description": "Hexicon系列，六角设计独特闪耀。",
+    "sourceUrls": [
+      "https://www.lukfook.com"
+    ],
+    "storeAvailabilityNote": "Hexicon系列与婚嫁系列可到店选购"
+  },
+  {
+    "id": "lukfook-hexicon-white-f",
+    "brandId": "lukfook",
+    "collection": "Hexicon",
+    "name": "Hexicon 白金",
+    "genderFit": [
+      "female"
+    ],
+    "materials": [
+      "18K白金"
+    ],
+    "stones": [
+      "钻石"
+    ],
+    "styleTags": [
+      "现代",
+      "六角"
+    ],
+    "meaningTags": [
+      "独特",
+      "闪耀"
+    ],
+    "price": {
+      "display": "约 ¥6,000-11,000",
+      "currency": "CNY",
+      "amountRange": [
+        6000,
+        11000
+      ],
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/placeholders/lukfook-hexicon-white-f.svg",
+    "imageStatus": "placeholder",
+    "officialUrl": "https://www.lukfook.com/",
+    "description": "Hexicon系列，优雅独特。",
+    "sourceUrls": [
+      "https://www.lukfook.com"
+    ],
+    "storeAvailabilityNote": "Hexicon系列与婚嫁系列可到店选购"
+  },
+  {
+    "id": "cartier-love-wide-rose-m",
+    "brandId": "cartier",
+    "collection": "LOVE",
+    "name": "LOVE 宽版 玫瑰金",
+    "genderFit": [
+      "male"
+    ],
+    "materials": [
+      "18K玫瑰金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "经典",
+      "螺丝图案",
+      "宽版"
+    ],
+    "meaningTags": [
+      "永恒",
+      "承诺"
+    ],
+    "price": {
+      "display": "约 ¥16,500",
+      "currency": "CNY",
+      "amount": 16500,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/placeholders/cartier-love-wide-rose-m.svg",
+    "officialUrl": "https://www.cartier.cn/zh-cn/%E7%88%B1%E7%9A%84%E7%A4%BC%E7%89%A9/%E5%A9%9A%E6%88%92.html",
+    "description": "宽版玫瑰金，LOVE标志性螺丝图案，更具存在感。",
+    "imageStatus": "placeholder",
+    "storeAvailabilityNote": "官网预约或专柜试戴；SKP店货品较全",
+    "sourceUrls": [
+      "https://www.cartier.cn/zh-cn/%E7%88%B1%E7%9A%84%E7%A4%BC%E7%89%A9/%E5%A9%9A%E6%88%92.html"
+    ]
+  },
+  {
+    "id": "cartier-love-wide-yellow-m",
+    "brandId": "cartier",
+    "collection": "LOVE",
+    "name": "LOVE 宽版 黄金",
+    "genderFit": [
+      "male"
+    ],
+    "materials": [
+      "18K黄金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "经典",
+      "螺丝图案",
+      "宽版"
+    ],
+    "meaningTags": [
+      "永恒",
+      "承诺"
+    ],
+    "price": {
+      "display": "约 ¥16,500",
+      "currency": "CNY",
+      "amount": 16500,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/placeholders/cartier-love-wide-yellow-m.svg",
+    "officialUrl": "https://www.cartier.cn/zh-cn/%E7%88%B1%E7%9A%84%E7%A4%BC%E7%89%A9/%E5%A9%9A%E6%88%92.html",
+    "description": "宽版黄金，LOVE标志性螺丝图案，经典暖金。",
+    "imageStatus": "placeholder",
+    "storeAvailabilityNote": "官网预约或专柜试戴；SKP店货品较全",
+    "sourceUrls": [
+      "https://www.cartier.cn/zh-cn/%E7%88%B1%E7%9A%84%E7%A4%BC%E7%89%A9/%E5%A9%9A%E6%88%92.html"
+    ]
+  },
+  {
+    "id": "cartier-love-narrow-diamond-yellow-f",
+    "brandId": "cartier",
+    "collection": "LOVE",
+    "name": "LOVE 窄版镶钻 黄金",
+    "genderFit": [
+      "female"
+    ],
+    "materials": [
+      "18K黄金",
+      "钻石"
+    ],
+    "stones": [
+      "钻石"
+    ],
+    "styleTags": [
+      "经典",
+      "螺丝图案",
+      "镶钻"
+    ],
+    "meaningTags": [
+      "永恒",
+      "璀璨"
+    ],
+    "price": {
+      "display": "约 ¥18,500",
+      "currency": "CNY",
+      "amount": 18500,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/placeholders/cartier-love-narrow-diamond-yellow-f.svg",
+    "officialUrl": "https://www.cartier.cn/zh-cn/%E7%88%B1%E7%9A%84%E7%A4%BC%E7%89%A9/%E5%A9%9A%E6%88%92.html",
+    "description": "窄版黄金镶嵌单颗钻石，璀璨精致。",
+    "imageStatus": "placeholder",
+    "storeAvailabilityNote": "官网预约或专柜试戴；SKP店货品较全",
+    "sourceUrls": [
+      "https://www.cartier.cn/zh-cn/%E7%88%B1%E7%9A%84%E7%A4%BC%E7%89%A9/%E5%A9%9A%E6%88%92.html"
+    ]
+  },
+  {
+    "id": "tiffany-forever-platinum-half-diamond-f",
+    "brandId": "tiffany",
+    "collection": "Forever",
+    "name": "Forever 铂金半圈钻",
+    "genderFit": [
+      "female"
+    ],
+    "materials": [
+      "铂金",
+      "钻石"
+    ],
+    "stones": [
+      "钻石"
+    ],
+    "styleTags": [
+      "经典",
+      "半圈钻"
+    ],
+    "meaningTags": [
+      "永恒",
+      "璀璨"
+    ],
+    "price": {
+      "display": "约 ¥35,000",
+      "currency": "CNY",
+      "amount": 35000,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/placeholders/tiffany-forever-platinum-half-diamond-f.svg",
+    "officialUrl": "https://www.tiffany.cn/jewelry/rings/wedding-bands/",
+    "description": "铂金半圈钻石镶嵌，闪耀且可改圈。",
+    "imageStatus": "placeholder",
+    "storeAvailabilityNote": "官网可查询库存；建议到店确认圈号与刻字服务",
+    "sourceUrls": [
+      "https://www.tiffany.cn/jewelry/rings/wedding-bands/"
+    ]
+  },
+  {
+    "id": "tiffany-forever-sapphire-diamond-f",
+    "brandId": "tiffany",
+    "collection": "Forever",
+    "name": "Forever 蓝宝石钻戒",
+    "genderFit": [
+      "female"
+    ],
+    "materials": [
+      "铂金",
+      "钻石",
+      "蓝宝石"
+    ],
+    "stones": [
+      "钻石",
+      "蓝宝石"
+    ],
+    "styleTags": [
+      "经典",
+      "蓝宝石",
+      "彩色宝石"
+    ],
+    "meaningTags": [
+      "忠诚",
+      "守护"
+    ],
+    "price": {
+      "display": "约 ¥45,000",
+      "currency": "CNY",
+      "amount": 45000,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/placeholders/tiffany-forever-sapphire-diamond-f.svg",
+    "officialUrl": "https://www.tiffany.cn/jewelry/rings/wedding-bands/",
+    "description": "蓝宝石与钻石交替镶嵌，象征忠诚与守护。",
+    "imageStatus": "placeholder",
+    "storeAvailabilityNote": "官网可查询库存；建议到店确认圈号与刻字服务",
+    "sourceUrls": [
+      "https://www.tiffany.cn/jewelry/rings/wedding-bands/"
+    ]
+  },
+  {
+    "id": "bvlgari-bzero1-three-ring-rose-f",
+    "brandId": "bvlgari",
+    "collection": "B.zero1",
+    "name": "B.zero1 三环螺旋 玫瑰金",
+    "genderFit": [
+      "female"
+    ],
+    "materials": [
+      "18K玫瑰金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "时尚",
+      "螺旋",
+      "建筑感"
+    ],
+    "meaningTags": [
+      "新生",
+      "力量"
+    ],
+    "price": {
+      "display": "约 ¥18,000",
+      "currency": "CNY",
+      "amount": 18000,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/placeholders/bvlgari-bzero1-three-ring-rose-f.svg",
+    "officialUrl": "https://www.bulgari.cn/zh-cn/%E5%A9%9A%E6%88%92.html",
+    "description": "三环螺旋结构，建筑感强烈，层次分明。",
+    "imageStatus": "placeholder",
+    "storeAvailabilityNote": "专柜可试戴；B.zero1与Serpenti系列需确认现货",
+    "sourceUrls": [
+      "https://www.bulgari.cn/zh-cn/%E5%A9%9A%E6%88%92.html"
+    ]
+  },
+  {
+    "id": "damiani-dside-wide-white-m",
+    "brandId": "damiani",
+    "collection": "D.Side",
+    "name": "D.Side 宽版白金",
+    "genderFit": [
+      "male"
+    ],
+    "materials": [
+      "18K白金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "经典",
+      "建筑感",
+      "宽版"
+    ],
+    "meaningTags": [
+      "守护",
+      "力量"
+    ],
+    "price": {
+      "display": "约 ¥16,000",
+      "currency": "CNY",
+      "amount": 16000,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/placeholders/damiani-dside-wide-white-m.svg",
+    "officialUrl": "https://www.damiani.com/en/wedding-rings/",
+    "description": "宽版白金，双层边缘结构，硬朗大气。",
+    "imageStatus": "placeholder",
+    "storeAvailabilityNote": "SKP专柜有售；建议官网预约后到店",
+    "sourceUrls": [
+      "https://www.damiani.com/en/wedding-rings/"
+    ]
+  },
+  {
+    "id": "damiani-dside-narrow-diamond-white-f",
+    "brandId": "damiani",
+    "collection": "D.Side",
+    "name": "D.Side 窄版小钻白金",
+    "genderFit": [
+      "female"
+    ],
+    "materials": [
+      "18K白金",
+      "钻石"
+    ],
+    "stones": [
+      "钻石"
+    ],
+    "styleTags": [
+      "经典",
+      "镶钻",
+      "优雅"
+    ],
+    "meaningTags": [
+      "守护",
+      "珍贵"
+    ],
+    "price": {
+      "display": "约 ¥14,000",
+      "currency": "CNY",
+      "amount": 14000,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/placeholders/damiani-dside-narrow-diamond-white-f.svg",
+    "officialUrl": "https://www.damiani.com/en/wedding-rings/",
+    "description": "窄版白金间隔镶嵌小钻，如星光闪烁。",
+    "imageStatus": "placeholder",
+    "storeAvailabilityNote": "SKP专柜有售；建议官网预约后到店",
+    "sourceUrls": [
+      "https://www.damiani.com/en/wedding-rings/"
+    ]
+  },
+  {
+    "id": "debeers-classic-white-m",
+    "brandId": "debeers",
+    "collection": "Classic",
+    "name": "Classic 白金素圈",
+    "genderFit": [
+      "male"
+    ],
+    "materials": [
+      "18K白金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "经典",
+      "素圈"
+    ],
+    "meaningTags": [
+      "纯净",
+      "永恒"
+    ],
+    "price": {
+      "display": "约 ¥14,000",
+      "currency": "CNY",
+      "amount": 14000,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/placeholders/debeers-classic-white-m.svg",
+    "officialUrl": "https://www.debeers.com.cn/",
+    "description": "经典白金素圈，冷静内敛。",
+    "imageStatus": "placeholder",
+    "storeAvailabilityNote": "需预约鉴赏；提供钻石溯源证书",
+    "sourceUrls": [
+      "https://www.debeers.com.cn/"
+    ]
+  },
+  {
+    "id": "mokumeganeya-curve-diamond-f",
+    "brandId": "mokumeganeya",
+    "collection": "Mokume",
+    "name": "Mokume 曲线小钻",
+    "genderFit": [
+      "female"
+    ],
+    "materials": [
+      "木纹金",
+      "钻石"
+    ],
+    "stones": [
+      "钻石"
+    ],
+    "styleTags": [
+      "传统",
+      "木纹金",
+      "曲线"
+    ],
+    "meaningTags": [
+      "独一无二",
+      "自然"
+    ],
+    "price": {
+      "display": "约 ¥28,000",
+      "currency": "CNY",
+      "amount": 28000,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/placeholders/mokumeganeya-curve-diamond-f.svg",
+    "officialUrl": "https://www.mokumeganeya.com/",
+    "description": "木纹金曲线设计，镶嵌小钻，自然优雅。",
+    "imageStatus": "placeholder",
+    "storeAvailabilityNote": "北京无专柜；可通过官网国际订购或日本代购",
+    "sourceUrls": [
+      "https://www.mokumeganeya.com/"
+    ]
+  },
+  {
+    "id": "boucheron-facette-wide-white-m",
+    "brandId": "boucheron",
+    "collection": "Facette",
+    "name": "Facette 宽版铂金",
+    "genderFit": [
+      "male"
+    ],
+    "materials": [
+      "铂金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "经典",
+      "切面",
+      "宽版"
+    ],
+    "meaningTags": [
+      "独特",
+      "光影"
+    ],
+    "price": {
+      "display": "约 ¥18,000",
+      "currency": "CNY",
+      "amount": 18000,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/placeholders/boucheron-facette-wide-white-m.svg",
+    "officialUrl": "https://www.boucheron.cn/zh-cn/%E5%A9%9A%E6%88%92.html",
+    "description": "钻石切割般切面，宽版铂金，光影分明。",
+    "imageStatus": "placeholder",
+    "storeAvailabilityNote": "SKP精品店；Quatre系列可定制",
+    "sourceUrls": [
+      "https://www.boucheron.cn/zh-cn/%E5%A9%9A%E6%88%92.html"
+    ]
+  },
+  {
+    "id": "boucheron-facette-narrow-rose-f",
+    "brandId": "boucheron",
+    "collection": "Facette",
+    "name": "Facette 窄版玫瑰金",
+    "genderFit": [
+      "female"
+    ],
+    "materials": [
+      "18K玫瑰金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "经典",
+      "切面",
+      "优雅"
+    ],
+    "meaningTags": [
+      "独特",
+      "光影"
+    ],
+    "price": {
+      "display": "约 ¥15,000",
+      "currency": "CNY",
+      "amount": 15000,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/placeholders/boucheron-facette-narrow-rose-f.svg",
+    "officialUrl": "https://www.boucheron.cn/zh-cn/%E5%A9%9A%E6%88%92.html",
+    "description": "窄版玫瑰金切面，精致独特。",
+    "imageStatus": "placeholder",
+    "storeAvailabilityNote": "SKP精品店；Quatre系列可定制",
+    "sourceUrls": [
+      "https://www.boucheron.cn/zh-cn/%E5%A9%9A%E6%88%92.html"
+    ]
+  },
+  {
+    "id": "chopard-icecube-wide-yellow-m",
+    "brandId": "chopard",
+    "collection": "Ice Cube",
+    "name": "Ice Cube 宽版黄金",
+    "genderFit": [
+      "male"
+    ],
+    "materials": [
+      "18K黄金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "时尚",
+      "几何",
+      "宽版"
+    ],
+    "meaningTags": [
+      "日常",
+      "力量"
+    ],
+    "price": {
+      "display": "约 ¥14,000",
+      "currency": "CNY",
+      "amount": 14000,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/placeholders/chopard-icecube-wide-yellow-m.svg",
+    "officialUrl": "https://www.chopard.cn/zh-cn/wedding-rings.html",
+    "description": "宽版黄金连续小方格，硬朗日常。",
+    "imageStatus": "placeholder",
+    "storeAvailabilityNote": "Ice Cube与Happy Diamonds系列可到店试戴",
+    "sourceUrls": [
+      "https://www.chopard.cn/zh-cn/wedding-rings.html"
+    ]
+  },
+  {
+    "id": "chopard-icecube-narrow-diamond-white-f",
+    "brandId": "chopard",
+    "collection": "Ice Cube",
+    "name": "Ice Cube 窄版单钻白金",
+    "genderFit": [
+      "female"
+    ],
+    "materials": [
+      "18K白金",
+      "钻石"
+    ],
+    "stones": [
+      "钻石"
+    ],
+    "styleTags": [
+      "时尚",
+      "几何",
+      "镶钻"
+    ],
+    "meaningTags": [
+      "日常",
+      "闪耀"
+    ],
+    "price": {
+      "display": "约 ¥16,000",
+      "currency": "CNY",
+      "amount": 16000,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/placeholders/chopard-icecube-narrow-diamond-white-f.svg",
+    "officialUrl": "https://www.chopard.cn/zh-cn/wedding-rings.html",
+    "description": "窄版白金小方格，点缀单钻，精致闪耀。",
+    "imageStatus": "placeholder",
+    "storeAvailabilityNote": "Ice Cube与Happy Diamonds系列可到店试戴",
+    "sourceUrls": [
+      "https://www.chopard.cn/zh-cn/wedding-rings.html"
+    ]
+  },
+  {
+    "id": "iprimo-origin-belief-m",
+    "brandId": "iprimo",
+    "collection": "Origin Belief",
+    "name": "Origin Belief 铂金",
+    "genderFit": [
+      "male"
+    ],
+    "materials": [
+      "铂金"
+    ],
+    "stones": [],
+    "styleTags": [
+      "经典",
+      "直线"
+    ],
+    "meaningTags": [
+      "起源",
+      "初心"
+    ],
+    "price": {
+      "display": "约 ¥8,000",
+      "currency": "CNY",
+      "amount": 8000,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/placeholders/iprimo-origin-belief-m.svg",
+    "officialUrl": "https://www.iprimo.com.cn/",
+    "description": "直线设计，低重心舒适佩戴，象征初心。",
+    "imageStatus": "placeholder",
+    "storeAvailabilityNote": "日式定制婚戒；支持刻字与尺寸调整",
+    "sourceUrls": [
+      "https://www.iprimo.com.cn/"
+    ]
+  },
+  {
+    "id": "iprimo-helene-f",
+    "brandId": "iprimo",
+    "collection": "Helene",
+    "name": "Helene 铂金",
+    "genderFit": [
+      "female"
+    ],
+    "materials": [
+      "铂金",
+      "钻石"
+    ],
+    "stones": [
+      "钻石"
+    ],
+    "styleTags": [
+      "经典",
+      "柔弧",
+      "镶钻"
+    ],
+    "meaningTags": [
+      "温柔",
+      "守护"
+    ],
+    "price": {
+      "display": "约 ¥9,500",
+      "currency": "CNY",
+      "amount": 9500,
+      "source": "official/cn/estimate",
+      "checkedAt": "2026-06-27"
+    },
+    "image": "wedding-ring-assets/placeholders/iprimo-helene-f.svg",
+    "officialUrl": "https://www.iprimo.com.cn/",
+    "description": "轻柔弧线与小钻，温柔回应。",
+    "imageStatus": "placeholder",
+    "storeAvailabilityNote": "日式定制婚戒；支持刻字与尺寸调整",
+    "sourceUrls": [
+      "https://www.iprimo.com.cn/"
+    ]
+  }
+];
