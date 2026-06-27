@@ -51,8 +51,10 @@ wedding-ring-assets/    图片资源
 - 单款戒指：243 个
 - 推荐组合：119 组
 - 本地官网/实物图：50 张
-- official-remote 官方远程图：40 款
-- generated-local / placeholder 示意图：153 张
+- official-remote 官方远程图：6 款
+- generated-local / placeholder 示意图：187 张
+
+> 说明：Phase 5 复核后，只有 `image` 字段本身为品牌官网/官方 CDN 的远程图片才计为 `official-remote`。此前部分“仅有官网来源链接、但图片仍为本地 SVG”的记录已降级为结构示意，避免误导。
 - 含北京门店/购买渠道信息的品牌：28 个
 
 ## 功能说明

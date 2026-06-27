@@ -2205,7 +2205,7 @@ window.RINGS_RINGS = [
       "confidence": "official-range"
     },
     "image": "wedding-ring-assets/placeholders/chaumet-liens-white-m.svg",
-    "imageStatus": "official-remote",
+    "imageStatus": "placeholder",
     "officialUrl": "https://www.chaumet.com/en/wedding-rings.html",
     "description": "连结设计，象征缘分。",
     "sourceUrls": [
@@ -2217,8 +2217,10 @@ window.RINGS_RINGS = [
       "score": 93,
       "status": "ok",
       "notes": [
-        "remote-image"
-      ]
+        "remote-image",
+        "remote-image-not-yet-replaced"
+      ],
+      "imageVerified": false
     }
   },
   {
@@ -2250,7 +2252,7 @@ window.RINGS_RINGS = [
       "confidence": "official-range"
     },
     "image": "wedding-ring-assets/placeholders/chaumet-liens-white-f.svg",
-    "imageStatus": "official-remote",
+    "imageStatus": "placeholder",
     "officialUrl": "https://www.chaumet.com/en/wedding-rings.html",
     "description": "连结设计，优雅缘分。",
     "sourceUrls": [
@@ -2262,8 +2264,10 @@ window.RINGS_RINGS = [
       "score": 93,
       "status": "ok",
       "notes": [
-        "remote-image"
-      ]
+        "remote-image",
+        "remote-image-not-yet-replaced"
+      ],
+      "imageVerified": false
     }
   },
   {
@@ -2295,7 +2299,7 @@ window.RINGS_RINGS = [
       "confidence": "official-range"
     },
     "image": "wedding-ring-assets/placeholders/chaumet-bee-rose-m.svg",
-    "imageStatus": "official-remote",
+    "imageStatus": "placeholder",
     "officialUrl": "https://www.chaumet.com/en/wedding-rings.html",
     "description": "蜂巢设计，象征甜蜜筑爱。",
     "sourceUrls": [
@@ -2307,8 +2311,10 @@ window.RINGS_RINGS = [
       "score": 93,
       "status": "ok",
       "notes": [
-        "remote-image"
-      ]
+        "remote-image",
+        "remote-image-not-yet-replaced"
+      ],
+      "imageVerified": false
     }
   },
   {
@@ -2340,7 +2346,7 @@ window.RINGS_RINGS = [
       "confidence": "official-range"
     },
     "image": "wedding-ring-assets/placeholders/chaumet-bee-rose-f.svg",
-    "imageStatus": "official-remote",
+    "imageStatus": "placeholder",
     "officialUrl": "https://www.chaumet.com/en/wedding-rings.html",
     "description": "蜂巢设计，优雅甜蜜。",
     "sourceUrls": [
@@ -2352,8 +2358,10 @@ window.RINGS_RINGS = [
       "score": 93,
       "status": "ok",
       "notes": [
-        "remote-image"
-      ]
+        "remote-image",
+        "remote-image-not-yet-replaced"
+      ],
+      "imageVerified": false
     }
   },
   {
@@ -2385,7 +2393,7 @@ window.RINGS_RINGS = [
       "confidence": "official-range"
     },
     "image": "wedding-ring-assets/placeholders/piaget-possession-white-m.svg",
-    "imageStatus": "official-remote",
+    "imageStatus": "placeholder",
     "officialUrl": "https://www.piaget.cn/zh-cn/%E5%A9%9A%E6%88%92.html",
     "description": "旋转环设计，象征转动幸运。",
     "sourceUrls": [
@@ -2397,8 +2405,10 @@ window.RINGS_RINGS = [
       "score": 93,
       "status": "ok",
       "notes": [
-        "remote-image"
-      ]
+        "remote-image",
+        "remote-image-not-yet-replaced"
+      ],
+      "imageVerified": false
     }
   },
   {
@@ -2430,7 +2440,7 @@ window.RINGS_RINGS = [
       "confidence": "official-range"
     },
     "image": "wedding-ring-assets/placeholders/piaget-possession-white-f.svg",
-    "imageStatus": "official-remote",
+    "imageStatus": "placeholder",
     "officialUrl": "https://www.piaget.cn/zh-cn/%E5%A9%9A%E6%88%92.html",
     "description": "旋转环设计，优雅幸运。",
     "sourceUrls": [
@@ -2442,8 +2452,10 @@ window.RINGS_RINGS = [
       "score": 93,
       "status": "ok",
       "notes": [
-        "remote-image"
-      ]
+        "remote-image",
+        "remote-image-not-yet-replaced"
+      ],
+      "imageVerified": false
     }
   },
   {
@@ -2475,7 +2487,7 @@ window.RINGS_RINGS = [
       "confidence": "official-range"
     },
     "image": "wedding-ring-assets/placeholders/vancleef-perlee-yellow-m.svg",
-    "imageStatus": "official-remote",
+    "imageStatus": "placeholder",
     "officialUrl": "https://www.vancleefarpels.cn/cn/zh/%E5%A9%9A%E6%88%92.html",
     "description": "金珠设计，象征圆满珍贵。",
     "sourceUrls": [
@@ -2487,8 +2499,10 @@ window.RINGS_RINGS = [
       "score": 93,
       "status": "ok",
       "notes": [
-        "remote-image"
-      ]
+        "remote-image",
+        "remote-image-not-yet-replaced"
+      ],
+      "imageVerified": false
     }
   },
   {
@@ -2520,7 +2534,7 @@ window.RINGS_RINGS = [
       "confidence": "official-range"
     },
     "image": "wedding-ring-assets/placeholders/vancleef-perlee-yellow-f.svg",
-    "imageStatus": "official-remote",
+    "imageStatus": "placeholder",
     "officialUrl": "https://www.vancleefarpels.cn/cn/zh/%E5%A9%9A%E6%88%92.html",
     "description": "金珠设计，优雅圆满。",
     "sourceUrls": [
@@ -2532,8 +2546,10 @@ window.RINGS_RINGS = [
       "score": 93,
       "status": "ok",
       "notes": [
-        "remote-image"
-      ]
+        "remote-image",
+        "remote-image-not-yet-replaced"
+      ],
+      "imageVerified": false
     }
   },
   {
@@ -2567,7 +2583,7 @@ window.RINGS_RINGS = [
       "confidence": "official-range"
     },
     "image": "wedding-ring-assets/placeholders/harrywinston-classic-platinum-m.svg",
-    "imageStatus": "official-remote",
+    "imageStatus": "placeholder",
     "officialUrl": "https://www.harrywinston.cn/engagement-rings/wedding-bands/",
     "description": "顶级钻石品牌，经典奢华。",
     "sourceUrls": [
@@ -2579,8 +2595,10 @@ window.RINGS_RINGS = [
       "score": 93,
       "status": "ok",
       "notes": [
-        "remote-image"
-      ]
+        "remote-image",
+        "remote-image-not-yet-replaced"
+      ],
+      "imageVerified": false
     }
   },
   {
@@ -2614,7 +2632,7 @@ window.RINGS_RINGS = [
       "confidence": "official-range"
     },
     "image": "wedding-ring-assets/placeholders/harrywinston-classic-platinum-f.svg",
-    "imageStatus": "official-remote",
+    "imageStatus": "placeholder",
     "officialUrl": "https://www.harrywinston.cn/engagement-rings/wedding-bands/",
     "description": "顶级钻石品牌，优雅奢华。",
     "sourceUrls": [
@@ -2626,8 +2644,10 @@ window.RINGS_RINGS = [
       "score": 93,
       "status": "ok",
       "notes": [
-        "remote-image"
-      ]
+        "remote-image",
+        "remote-image-not-yet-replaced"
+      ],
+      "imageVerified": false
     }
   },
   {
@@ -2661,7 +2681,7 @@ window.RINGS_RINGS = [
       "confidence": "official-range"
     },
     "image": "wedding-ring-assets/placeholders/graff-signature-white-m.svg",
-    "imageStatus": "official-remote",
+    "imageStatus": "placeholder",
     "officialUrl": "https://www.graff.cn/wedding-jewellery/",
     "description": "签名设计，独特珍贵。",
     "sourceUrls": [
@@ -2673,8 +2693,10 @@ window.RINGS_RINGS = [
       "score": 93,
       "status": "ok",
       "notes": [
-        "remote-image"
-      ]
+        "remote-image",
+        "remote-image-not-yet-replaced"
+      ],
+      "imageVerified": false
     }
   },
   {
@@ -2708,7 +2730,7 @@ window.RINGS_RINGS = [
       "confidence": "official-range"
     },
     "image": "wedding-ring-assets/placeholders/graff-signature-white-f.svg",
-    "imageStatus": "official-remote",
+    "imageStatus": "placeholder",
     "officialUrl": "https://www.graff.cn/wedding-jewellery/",
     "description": "签名设计，优雅独特。",
     "sourceUrls": [
@@ -2720,8 +2742,10 @@ window.RINGS_RINGS = [
       "score": 93,
       "status": "ok",
       "notes": [
-        "remote-image"
-      ]
+        "remote-image",
+        "remote-image-not-yet-replaced"
+      ],
+      "imageVerified": false
     }
   },
   {
@@ -2753,7 +2777,7 @@ window.RINGS_RINGS = [
       "confidence": "official-range"
     },
     "image": "wedding-ring-assets/placeholders/pomellato-iconica-rose-m.svg",
-    "imageStatus": "official-remote",
+    "imageStatus": "placeholder",
     "officialUrl": "https://www.pomellato.cn/zh-cn/%E5%A9%9A%E6%88%92.html",
     "description": "Iconica设计，个性自由。",
     "sourceUrls": [
@@ -2765,8 +2789,10 @@ window.RINGS_RINGS = [
       "score": 93,
       "status": "ok",
       "notes": [
-        "remote-image"
-      ]
+        "remote-image",
+        "remote-image-not-yet-replaced"
+      ],
+      "imageVerified": false
     }
   },
   {
@@ -2798,7 +2824,7 @@ window.RINGS_RINGS = [
       "confidence": "official-range"
     },
     "image": "wedding-ring-assets/placeholders/pomellato-iconica-rose-f.svg",
-    "imageStatus": "official-remote",
+    "imageStatus": "placeholder",
     "officialUrl": "https://www.pomellato.cn/zh-cn/%E5%A9%9A%E6%88%92.html",
     "description": "Iconica设计，优雅个性。",
     "sourceUrls": [
@@ -2810,8 +2836,10 @@ window.RINGS_RINGS = [
       "score": 93,
       "status": "ok",
       "notes": [
-        "remote-image"
-      ]
+        "remote-image",
+        "remote-image-not-yet-replaced"
+      ],
+      "imageVerified": false
     }
   },
   {
@@ -2843,7 +2871,7 @@ window.RINGS_RINGS = [
       "confidence": "official-range"
     },
     "image": "wedding-ring-assets/placeholders/gucci-link-love-yellow-m.svg",
-    "imageStatus": "official-remote",
+    "imageStatus": "placeholder",
     "officialUrl": "https://www.gucci.cn/cn/zh/jewelry-watches/fine-jewelry/rings.html",
     "description": "几何设计，象征连结与爱。",
     "sourceUrls": [
@@ -2855,8 +2883,10 @@ window.RINGS_RINGS = [
       "score": 93,
       "status": "ok",
       "notes": [
-        "remote-image"
-      ]
+        "remote-image",
+        "remote-image-not-yet-replaced"
+      ],
+      "imageVerified": false
     }
   },
   {
@@ -2888,7 +2918,7 @@ window.RINGS_RINGS = [
       "confidence": "official-range"
     },
     "image": "wedding-ring-assets/placeholders/gucci-link-love-yellow-f.svg",
-    "imageStatus": "official-remote",
+    "imageStatus": "placeholder",
     "officialUrl": "https://www.gucci.cn/cn/zh/jewelry-watches/fine-jewelry/rings.html",
     "description": "几何设计，优雅连结。",
     "sourceUrls": [
@@ -2900,8 +2930,10 @@ window.RINGS_RINGS = [
       "score": 93,
       "status": "ok",
       "notes": [
-        "remote-image"
-      ]
+        "remote-image",
+        "remote-image-not-yet-replaced"
+      ],
+      "imageVerified": false
     }
   },
   {
@@ -2933,7 +2965,7 @@ window.RINGS_RINGS = [
       "confidence": "official-range"
     },
     "image": "wedding-ring-assets/placeholders/dior-rose-rose-m.svg",
-    "imageStatus": "official-remote",
+    "imageStatus": "placeholder",
     "officialUrl": "https://www.dior.cn/zh_cn/%E9%AB%98%E7%BA%A7%E7%8F%A0%E5%AE%9D/%E6%88%92%E6%8C%87.html",
     "description": "罗盘设计，象征方向与守护。",
     "sourceUrls": [
@@ -2945,8 +2977,10 @@ window.RINGS_RINGS = [
       "score": 93,
       "status": "ok",
       "notes": [
-        "remote-image"
-      ]
+        "remote-image",
+        "remote-image-not-yet-replaced"
+      ],
+      "imageVerified": false
     }
   },
   {
@@ -2978,7 +3012,7 @@ window.RINGS_RINGS = [
       "confidence": "official-range"
     },
     "image": "wedding-ring-assets/placeholders/dior-rose-rose-f.svg",
-    "imageStatus": "official-remote",
+    "imageStatus": "placeholder",
     "officialUrl": "https://www.dior.cn/zh_cn/%E9%AB%98%E7%BA%A7%E7%8F%A0%E5%AE%9D/%E6%88%92%E6%8C%87.html",
     "description": "罗盘设计，优雅浪漫。",
     "sourceUrls": [
@@ -2990,8 +3024,10 @@ window.RINGS_RINGS = [
       "score": 93,
       "status": "ok",
       "notes": [
-        "remote-image"
-      ]
+        "remote-image",
+        "remote-image-not-yet-replaced"
+      ],
+      "imageVerified": false
     }
   },
   {
@@ -3023,7 +3059,7 @@ window.RINGS_RINGS = [
       "confidence": "official-range"
     },
     "image": "wedding-ring-assets/placeholders/chanel-coco-white-m.svg",
-    "imageStatus": "official-remote",
+    "imageStatus": "placeholder",
     "officialUrl": "https://www.chanel.cn/fine-jewelry/coco-crush/",
     "description": "菱格纹设计，经典力量。",
     "sourceUrls": [
@@ -3035,8 +3071,10 @@ window.RINGS_RINGS = [
       "score": 93,
       "status": "ok",
       "notes": [
-        "remote-image"
-      ]
+        "remote-image",
+        "remote-image-not-yet-replaced"
+      ],
+      "imageVerified": false
     }
   },
   {
@@ -3068,7 +3106,7 @@ window.RINGS_RINGS = [
       "confidence": "official-range"
     },
     "image": "wedding-ring-assets/placeholders/chanel-coco-white-f.svg",
-    "imageStatus": "official-remote",
+    "imageStatus": "placeholder",
     "officialUrl": "https://www.chanel.cn/fine-jewelry/coco-crush/",
     "description": "菱格纹设计，优雅经典。",
     "sourceUrls": [
@@ -3080,8 +3118,10 @@ window.RINGS_RINGS = [
       "score": 93,
       "status": "ok",
       "notes": [
-        "remote-image"
-      ]
+        "remote-image",
+        "remote-image-not-yet-replaced"
+      ],
+      "imageVerified": false
     }
   },
   {
@@ -3113,7 +3153,7 @@ window.RINGS_RINGS = [
       "confidence": "official-range"
     },
     "image": "wedding-ring-assets/placeholders/hermes-kelly-rose-m.svg",
-    "imageStatus": "official-remote",
+    "imageStatus": "placeholder",
     "officialUrl": "https://www.hermes.cn/cn/zh/%E7%8F%A0%E5%AE%9D/%E6%88%92%E6%8C%87/",
     "description": "Kelly设计，优雅传承。",
     "sourceUrls": [
@@ -3125,8 +3165,10 @@ window.RINGS_RINGS = [
       "score": 93,
       "status": "ok",
       "notes": [
-        "remote-image"
-      ]
+        "remote-image",
+        "remote-image-not-yet-replaced"
+      ],
+      "imageVerified": false
     }
   },
   {
@@ -3158,7 +3200,7 @@ window.RINGS_RINGS = [
       "confidence": "official-range"
     },
     "image": "wedding-ring-assets/placeholders/hermes-kelly-rose-f.svg",
-    "imageStatus": "official-remote",
+    "imageStatus": "placeholder",
     "officialUrl": "https://www.hermes.cn/cn/zh/%E7%8F%A0%E5%AE%9D/%E6%88%92%E6%8C%87/",
     "description": "Kelly设计，优雅传承。",
     "sourceUrls": [
@@ -3170,8 +3212,10 @@ window.RINGS_RINGS = [
       "score": 93,
       "status": "ok",
       "notes": [
-        "remote-image"
-      ]
+        "remote-image",
+        "remote-image-not-yet-replaced"
+      ],
+      "imageVerified": false
     }
   },
   {
@@ -3477,7 +3521,7 @@ window.RINGS_RINGS = [
       "confidence": "official-range"
     },
     "image": "wedding-ring-assets/placeholders/dr-forever-white-m.svg",
-    "imageStatus": "official-remote",
+    "imageStatus": "placeholder",
     "officialUrl": "https://www.darryring.com/",
     "description": "一生只能定制一枚，象征唯一承诺。",
     "sourceUrls": [
@@ -3489,8 +3533,10 @@ window.RINGS_RINGS = [
       "score": 93,
       "status": "ok",
       "notes": [
-        "remote-image"
-      ]
+        "remote-image",
+        "remote-image-not-yet-replaced"
+      ],
+      "imageVerified": false
     }
   },
   {
@@ -3522,7 +3568,7 @@ window.RINGS_RINGS = [
       "confidence": "official-range"
     },
     "image": "wedding-ring-assets/placeholders/dr-forever-white-f.svg",
-    "imageStatus": "official-remote",
+    "imageStatus": "placeholder",
     "officialUrl": "https://www.darryring.com/",
     "description": "一生只能定制一枚，优雅唯一。",
     "sourceUrls": [
@@ -3534,8 +3580,10 @@ window.RINGS_RINGS = [
       "score": 93,
       "status": "ok",
       "notes": [
-        "remote-image"
-      ]
+        "remote-image",
+        "remote-image-not-yet-replaced"
+      ],
+      "imageVerified": false
     }
   },
   {
@@ -3864,7 +3912,7 @@ window.RINGS_RINGS = [
     "image": "wedding-ring-assets/placeholders/cartier-love-wide-rose-m.svg",
     "officialUrl": "https://www.cartier.cn/zh-cn/%E7%88%B1%E7%9A%84%E7%A4%BC%E7%89%A9/%E5%A9%9A%E6%88%92.html",
     "description": "宽版玫瑰金，LOVE标志性螺丝图案，更具存在感。",
-    "imageStatus": "official-remote",
+    "imageStatus": "placeholder",
     "storeAvailabilityNote": "官网预约或专柜试戴；SKP店货品较全",
     "sourceUrls": [
       "https://www.cartier.cn/zh-cn/%E7%88%B1%E7%9A%84%E7%A4%BC%E7%89%A9/%E5%A9%9A%E6%88%92.html"
@@ -3874,8 +3922,10 @@ window.RINGS_RINGS = [
       "score": 93,
       "status": "ok",
       "notes": [
-        "remote-image"
-      ]
+        "remote-image",
+        "remote-image-not-yet-replaced"
+      ],
+      "imageVerified": false
     }
   },
   {
@@ -3910,7 +3960,7 @@ window.RINGS_RINGS = [
     "image": "wedding-ring-assets/placeholders/cartier-love-wide-yellow-m.svg",
     "officialUrl": "https://www.cartier.cn/zh-cn/%E7%88%B1%E7%9A%84%E7%A4%BC%E7%89%A9/%E5%A9%9A%E6%88%92.html",
     "description": "宽版黄金，LOVE标志性螺丝图案，经典暖金。",
-    "imageStatus": "official-remote",
+    "imageStatus": "placeholder",
     "storeAvailabilityNote": "官网预约或专柜试戴；SKP店货品较全",
     "sourceUrls": [
       "https://www.cartier.cn/zh-cn/%E7%88%B1%E7%9A%84%E7%A4%BC%E7%89%A9/%E5%A9%9A%E6%88%92.html"
@@ -3920,8 +3970,10 @@ window.RINGS_RINGS = [
       "score": 93,
       "status": "ok",
       "notes": [
-        "remote-image"
-      ]
+        "remote-image",
+        "remote-image-not-yet-replaced"
+      ],
+      "imageVerified": false
     }
   },
   {
@@ -3959,7 +4011,7 @@ window.RINGS_RINGS = [
     "image": "wedding-ring-assets/placeholders/cartier-love-narrow-diamond-yellow-f.svg",
     "officialUrl": "https://www.cartier.cn/zh-cn/%E7%88%B1%E7%9A%84%E7%A4%BC%E7%89%A9/%E5%A9%9A%E6%88%92.html",
     "description": "窄版黄金镶嵌单颗钻石，璀璨精致。",
-    "imageStatus": "official-remote",
+    "imageStatus": "placeholder",
     "storeAvailabilityNote": "官网预约或专柜试戴；SKP店货品较全",
     "sourceUrls": [
       "https://www.cartier.cn/zh-cn/%E7%88%B1%E7%9A%84%E7%A4%BC%E7%89%A9/%E5%A9%9A%E6%88%92.html"
@@ -3969,8 +4021,10 @@ window.RINGS_RINGS = [
       "score": 93,
       "status": "ok",
       "notes": [
-        "remote-image"
-      ]
+        "remote-image",
+        "remote-image-not-yet-replaced"
+      ],
+      "imageVerified": false
     }
   },
   {
@@ -4007,7 +4061,7 @@ window.RINGS_RINGS = [
     "image": "wedding-ring-assets/placeholders/tiffany-forever-platinum-half-diamond-f.svg",
     "officialUrl": "https://www.tiffany.cn/jewelry/rings/wedding-bands/",
     "description": "铂金半圈钻石镶嵌，闪耀且可改圈。",
-    "imageStatus": "official-remote",
+    "imageStatus": "placeholder",
     "storeAvailabilityNote": "官网可查询库存；建议到店确认圈号与刻字服务",
     "sourceUrls": [
       "https://www.tiffany.cn/jewelry/rings/wedding-bands/"
@@ -4017,8 +4071,10 @@ window.RINGS_RINGS = [
       "score": 93,
       "status": "ok",
       "notes": [
-        "remote-image"
-      ]
+        "remote-image",
+        "remote-image-not-yet-replaced"
+      ],
+      "imageVerified": false
     }
   },
   {
@@ -4058,7 +4114,7 @@ window.RINGS_RINGS = [
     "image": "wedding-ring-assets/placeholders/tiffany-forever-sapphire-diamond-f.svg",
     "officialUrl": "https://www.tiffany.cn/jewelry/rings/wedding-bands/",
     "description": "蓝宝石与钻石交替镶嵌，象征忠诚与守护。",
-    "imageStatus": "official-remote",
+    "imageStatus": "placeholder",
     "storeAvailabilityNote": "官网可查询库存；建议到店确认圈号与刻字服务",
     "sourceUrls": [
       "https://www.tiffany.cn/jewelry/rings/wedding-bands/"
@@ -4068,8 +4124,10 @@ window.RINGS_RINGS = [
       "score": 93,
       "status": "ok",
       "notes": [
-        "remote-image"
-      ]
+        "remote-image",
+        "remote-image-not-yet-replaced"
+      ],
+      "imageVerified": false
     }
   },
   {
@@ -4104,7 +4162,7 @@ window.RINGS_RINGS = [
     "image": "wedding-ring-assets/placeholders/bvlgari-bzero1-three-ring-rose-f.svg",
     "officialUrl": "https://www.bulgari.cn/zh-cn/%E5%A9%9A%E6%88%92.html",
     "description": "三环螺旋结构，建筑感强烈，层次分明。",
-    "imageStatus": "official-remote",
+    "imageStatus": "placeholder",
     "storeAvailabilityNote": "专柜可试戴；B.zero1与Serpenti系列需确认现货",
     "sourceUrls": [
       "https://www.bulgari.cn/zh-cn/%E5%A9%9A%E6%88%92.html"
@@ -4114,8 +4172,10 @@ window.RINGS_RINGS = [
       "score": 93,
       "status": "ok",
       "notes": [
-        "remote-image"
-      ]
+        "remote-image",
+        "remote-image-not-yet-replaced"
+      ],
+      "imageVerified": false
     }
   },
   {
@@ -4150,7 +4210,7 @@ window.RINGS_RINGS = [
     "image": "wedding-ring-assets/placeholders/damiani-dside-wide-white-m.svg",
     "officialUrl": "https://www.damiani.com/en/wedding-rings/",
     "description": "宽版白金，双层边缘结构，硬朗大气。",
-    "imageStatus": "official-remote",
+    "imageStatus": "placeholder",
     "storeAvailabilityNote": "SKP专柜有售；建议官网预约后到店",
     "sourceUrls": [
       "https://www.damiani.com/en/wedding-rings/"
@@ -4160,8 +4220,10 @@ window.RINGS_RINGS = [
       "score": 93,
       "status": "ok",
       "notes": [
-        "remote-image"
-      ]
+        "remote-image",
+        "remote-image-not-yet-replaced"
+      ],
+      "imageVerified": false
     }
   },
   {
@@ -4199,7 +4261,7 @@ window.RINGS_RINGS = [
     "image": "wedding-ring-assets/placeholders/damiani-dside-narrow-diamond-white-f.svg",
     "officialUrl": "https://www.damiani.com/en/wedding-rings/",
     "description": "窄版白金间隔镶嵌小钻，如星光闪烁。",
-    "imageStatus": "official-remote",
+    "imageStatus": "placeholder",
     "storeAvailabilityNote": "SKP专柜有售；建议官网预约后到店",
     "sourceUrls": [
       "https://www.damiani.com/en/wedding-rings/"
@@ -4209,8 +4271,10 @@ window.RINGS_RINGS = [
       "score": 93,
       "status": "ok",
       "notes": [
-        "remote-image"
-      ]
+        "remote-image",
+        "remote-image-not-yet-replaced"
+      ],
+      "imageVerified": false
     }
   },
   {
@@ -4244,7 +4308,7 @@ window.RINGS_RINGS = [
     "image": "wedding-ring-assets/placeholders/debeers-classic-white-m.svg",
     "officialUrl": "https://www.debeers.com.cn/",
     "description": "经典白金素圈，冷静内敛。",
-    "imageStatus": "official-remote",
+    "imageStatus": "placeholder",
     "storeAvailabilityNote": "需预约鉴赏；提供钻石溯源证书",
     "sourceUrls": [
       "https://www.debeers.com.cn/"
@@ -4254,8 +4318,10 @@ window.RINGS_RINGS = [
       "score": 93,
       "status": "ok",
       "notes": [
-        "remote-image"
-      ]
+        "remote-image",
+        "remote-image-not-yet-replaced"
+      ],
+      "imageVerified": false
     }
   },
   {
@@ -4293,7 +4359,7 @@ window.RINGS_RINGS = [
     "image": "wedding-ring-assets/placeholders/mokumeganeya-curve-diamond-f.svg",
     "officialUrl": "https://www.mokumeganeya.com/",
     "description": "木纹金曲线设计，镶嵌小钻，自然优雅。",
-    "imageStatus": "official-remote",
+    "imageStatus": "placeholder",
     "storeAvailabilityNote": "北京无专柜；可通过官网国际订购或日本代购",
     "sourceUrls": [
       "https://www.mokumeganeya.com/"
@@ -4303,8 +4369,10 @@ window.RINGS_RINGS = [
       "score": 93,
       "status": "ok",
       "notes": [
-        "remote-image"
-      ]
+        "remote-image",
+        "remote-image-not-yet-replaced"
+      ],
+      "imageVerified": false
     }
   },
   {
@@ -4339,7 +4407,7 @@ window.RINGS_RINGS = [
     "image": "wedding-ring-assets/placeholders/boucheron-facette-wide-white-m.svg",
     "officialUrl": "https://www.boucheron.cn/zh-cn/%E5%A9%9A%E6%88%92.html",
     "description": "钻石切割般切面，宽版铂金，光影分明。",
-    "imageStatus": "official-remote",
+    "imageStatus": "placeholder",
     "storeAvailabilityNote": "SKP精品店；Quatre系列可定制",
     "sourceUrls": [
       "https://www.boucheron.cn/zh-cn/%E5%A9%9A%E6%88%92.html"
@@ -4349,8 +4417,10 @@ window.RINGS_RINGS = [
       "score": 93,
       "status": "ok",
       "notes": [
-        "remote-image"
-      ]
+        "remote-image",
+        "remote-image-not-yet-replaced"
+      ],
+      "imageVerified": false
     }
   },
   {
@@ -4385,7 +4455,7 @@ window.RINGS_RINGS = [
     "image": "wedding-ring-assets/placeholders/boucheron-facette-narrow-rose-f.svg",
     "officialUrl": "https://www.boucheron.cn/zh-cn/%E5%A9%9A%E6%88%92.html",
     "description": "窄版玫瑰金切面，精致独特。",
-    "imageStatus": "official-remote",
+    "imageStatus": "placeholder",
     "storeAvailabilityNote": "SKP精品店；Quatre系列可定制",
     "sourceUrls": [
       "https://www.boucheron.cn/zh-cn/%E5%A9%9A%E6%88%92.html"
@@ -4395,8 +4465,10 @@ window.RINGS_RINGS = [
       "score": 93,
       "status": "ok",
       "notes": [
-        "remote-image"
-      ]
+        "remote-image",
+        "remote-image-not-yet-replaced"
+      ],
+      "imageVerified": false
     }
   },
   {
@@ -4431,7 +4503,7 @@ window.RINGS_RINGS = [
     "image": "wedding-ring-assets/placeholders/chopard-icecube-wide-yellow-m.svg",
     "officialUrl": "https://www.chopard.cn/zh-cn/wedding-rings.html",
     "description": "宽版黄金连续小方格，硬朗日常。",
-    "imageStatus": "official-remote",
+    "imageStatus": "placeholder",
     "storeAvailabilityNote": "Ice Cube与Happy Diamonds系列可到店试戴",
     "sourceUrls": [
       "https://www.chopard.cn/zh-cn/wedding-rings.html"
@@ -4441,8 +4513,10 @@ window.RINGS_RINGS = [
       "score": 93,
       "status": "ok",
       "notes": [
-        "remote-image"
-      ]
+        "remote-image",
+        "remote-image-not-yet-replaced"
+      ],
+      "imageVerified": false
     }
   },
   {
@@ -4480,7 +4554,7 @@ window.RINGS_RINGS = [
     "image": "wedding-ring-assets/placeholders/chopard-icecube-narrow-diamond-white-f.svg",
     "officialUrl": "https://www.chopard.cn/zh-cn/wedding-rings.html",
     "description": "窄版白金小方格，点缀单钻，精致闪耀。",
-    "imageStatus": "official-remote",
+    "imageStatus": "placeholder",
     "storeAvailabilityNote": "Ice Cube与Happy Diamonds系列可到店试戴",
     "sourceUrls": [
       "https://www.chopard.cn/zh-cn/wedding-rings.html"
@@ -4490,8 +4564,10 @@ window.RINGS_RINGS = [
       "score": 93,
       "status": "ok",
       "notes": [
-        "remote-image"
-      ]
+        "remote-image",
+        "remote-image-not-yet-replaced"
+      ],
+      "imageVerified": false
     }
   },
   {
@@ -4525,7 +4601,7 @@ window.RINGS_RINGS = [
     "image": "wedding-ring-assets/placeholders/iprimo-origin-belief-m.svg",
     "officialUrl": "https://www.iprimo.com.cn/",
     "description": "直线设计，低重心舒适佩戴，象征初心。",
-    "imageStatus": "official-remote",
+    "imageStatus": "placeholder",
     "storeAvailabilityNote": "日式定制婚戒；支持刻字与尺寸调整",
     "sourceUrls": [
       "https://www.iprimo.com.cn/"
@@ -4535,8 +4611,10 @@ window.RINGS_RINGS = [
       "score": 93,
       "status": "ok",
       "notes": [
-        "remote-image"
-      ]
+        "remote-image",
+        "remote-image-not-yet-replaced"
+      ],
+      "imageVerified": false
     }
   },
   {
@@ -4574,7 +4652,7 @@ window.RINGS_RINGS = [
     "image": "wedding-ring-assets/placeholders/iprimo-helene-f.svg",
     "officialUrl": "https://www.iprimo.com.cn/",
     "description": "轻柔弧线与小钻，温柔回应。",
-    "imageStatus": "official-remote",
+    "imageStatus": "placeholder",
     "storeAvailabilityNote": "日式定制婚戒；支持刻字与尺寸调整",
     "sourceUrls": [
       "https://www.iprimo.com.cn/"
@@ -4584,8 +4662,10 @@ window.RINGS_RINGS = [
       "score": 93,
       "status": "ok",
       "notes": [
-        "remote-image"
-      ]
+        "remote-image",
+        "remote-image-not-yet-replaced"
+      ],
+      "imageVerified": false
     }
   },
   {
@@ -7803,8 +7883,8 @@ window.RINGS_RINGS = [
       "checkedAt": "2026-06-27",
       "confidence": "estimate"
     },
-    "image": "wedding-ring-assets/local/gucci-icon-icon-18k-male.svg",
-    "imageStatus": "generated-local",
+    "image": "https://res-cms.gucci.cn/bz-gucci-store-prod/prod/GUCCI/2024-04-24/%E6%88%92%E6%8C%87_797405JCF278062-pc_08ee23f1-835c-458f-bb3a-cafc52722ded.jpg",
+    "imageStatus": "official-remote",
     "imageSourceUrl": "https://www.gucci.cn",
     "officialUrl": "https://www.gucci.cn",
     "description": "古驰 Icon 系列，男款，18K黄金。时尚、承诺的象征。",
@@ -7817,7 +7897,8 @@ window.RINGS_RINGS = [
       "notes": [
         "generated-illustration",
         "price-estimate"
-      ]
+      ],
+      "imageVerified": true
     }
   },
   {
@@ -7848,8 +7929,8 @@ window.RINGS_RINGS = [
       "checkedAt": "2026-06-27",
       "confidence": "estimate"
     },
-    "image": "wedding-ring-assets/local/gucci-icon-icon-18k-female.svg",
-    "imageStatus": "generated-local",
+    "image": "https://res-cms.gucci.cn/bz-gucci-store-prod/prod/GUCCI/2024-04-24/%E6%88%92%E6%8C%87_797405JCF278062-pc_08ee23f1-835c-458f-bb3a-cafc52722ded.jpg",
+    "imageStatus": "official-remote",
     "imageSourceUrl": "https://www.gucci.cn",
     "officialUrl": "https://www.gucci.cn",
     "description": "古驰 Icon 系列，女款，18K黄金。时尚、承诺的象征。",
@@ -7862,7 +7943,8 @@ window.RINGS_RINGS = [
       "notes": [
         "generated-illustration",
         "price-estimate"
-      ]
+      ],
+      "imageVerified": true
     }
   },
   {
@@ -7893,8 +7975,8 @@ window.RINGS_RINGS = [
       "checkedAt": "2026-06-27",
       "confidence": "estimate"
     },
-    "image": "wedding-ring-assets/local/gucci-interlocking-g-interlocking-g-male.svg",
-    "imageStatus": "generated-local",
+    "image": "https://res-cms.gucci.cn/bz-gucci-store-prod/prod/GUCCI/2024-06-07/796859I46008005-pc_9223dd2e-dfa6-4b86-af05-40921be797ab.jpg",
+    "imageStatus": "official-remote",
     "imageSourceUrl": "https://www.gucci.cn",
     "officialUrl": "https://www.gucci.cn",
     "description": "古驰 Interlocking G 系列，男款，925银。时尚、个性的象征。",
@@ -7907,7 +7989,8 @@ window.RINGS_RINGS = [
       "notes": [
         "generated-illustration",
         "price-estimate"
-      ]
+      ],
+      "imageVerified": true
     }
   },
   {
@@ -7938,8 +8021,8 @@ window.RINGS_RINGS = [
       "checkedAt": "2026-06-27",
       "confidence": "estimate"
     },
-    "image": "wedding-ring-assets/local/gucci-interlocking-g-interlocking-g-female.svg",
-    "imageStatus": "generated-local",
+    "image": "https://res-cms.gucci.cn/bz-gucci-store-prod/prod/GUCCI/2024-06-07/796566I46008005-pc_cc89954b-2254-4998-b5ce-c6403ca1feec.jpg",
+    "imageStatus": "official-remote",
     "imageSourceUrl": "https://www.gucci.cn",
     "officialUrl": "https://www.gucci.cn",
     "description": "古驰 Interlocking G 系列，女款，925银。时尚、个性的象征。",
@@ -7952,7 +8035,8 @@ window.RINGS_RINGS = [
       "notes": [
         "generated-illustration",
         "price-estimate"
-      ]
+      ],
+      "imageVerified": true
     }
   },
   {
@@ -7983,8 +8067,8 @@ window.RINGS_RINGS = [
       "checkedAt": "2026-06-27",
       "confidence": "estimate"
     },
-    "image": "wedding-ring-assets/local/gucci-flora-flora-female.svg",
-    "imageStatus": "generated-local",
+    "image": "https://res-cms.gucci.cn/bz-gucci-store-prod/prod/GUCCI/2024-06-07/797593I98758623-%E5%A5%B3%E5%A3%AB-pc_f93833f8-ebad-4e69-855c-caf45bd1ce30.jpg",
+    "imageStatus": "official-remote",
     "imageSourceUrl": "https://www.gucci.cn",
     "officialUrl": "https://www.gucci.cn",
     "description": "古驰 Flora 系列，女款，18K玫瑰金。浪漫、优雅的象征。",
@@ -7997,7 +8081,8 @@ window.RINGS_RINGS = [
       "notes": [
         "generated-illustration",
         "price-estimate"
-      ]
+      ],
+      "imageVerified": true
     }
   },
   {
@@ -8347,8 +8432,8 @@ window.RINGS_RINGS = [
       "checkedAt": "2026-06-27",
       "confidence": "estimate"
     },
-    "image": "wedding-ring-assets/local/chanel-camlia-camlia-female.svg",
-    "imageStatus": "generated-local",
+    "image": "https://www.chanel.cn/images/t_one/q_auto:good,f_auto,fl_lossy,dpr_1.1/w_480/bouton-de-camelia-ring-white-white-gold-diamond-packshot-default-j12201-9580585517086.jpg",
+    "imageStatus": "official-remote",
     "imageSourceUrl": "https://www.chanel.cn",
     "officialUrl": "https://www.chanel.cn",
     "description": "香奈儿 Camélia 系列，女款，18K玫瑰金。浪漫、精致的象征。",
@@ -8361,7 +8446,8 @@ window.RINGS_RINGS = [
       "notes": [
         "generated-illustration",
         "price-estimate"
-      ]
+      ],
+      "imageVerified": true
     }
   },
   {
