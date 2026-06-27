@@ -16,13 +16,15 @@
       femaleFav: 'rings_female_fav_v1',
       selectedMale: 'rings_selected_male_v1',
       selectedFemale: 'rings_selected_female_v1',
-      comments: 'rings_comments_v1'
+      comments: 'rings_comments_v1',
+      userPairs: 'rings_user_pairs_v1'
     };
 
     function lsGet(key, fallback) {
       try { return JSON.parse(localStorage.getItem(key)) ?? fallback; } catch { return fallback; }
     }
     function lsSet(key, value) { try { localStorage.setItem(key, JSON.stringify(value)); } catch {} }
+    function lsDel(key) { try { localStorage.removeItem(key); } catch {} }
 
     // IndexedDB for photos
     const DB_NAME = 'rings_catalog_db_v1';
@@ -86,6 +88,56 @@
       } catch (e) { console.error('IndexedDB photo remove failed', e); }
     }
 
+    async function clearPhotos() {
+      try {
+        const store = await getPhotoStore('readwrite');
+        await new Promise((resolve, reject) => {
+          const req = store.clear();
+          req.onsuccess = () => resolve();
+          req.onerror = () => reject(req.error);
+        });
+      } catch (e) { console.error('IndexedDB photo clear failed', e); }
+    }
+
+    function getAll() {
+      return {
+        maleFavorites: lsGet(LS.maleFav, []),
+        femaleFavorites: lsGet(LS.femaleFav, []),
+        selectedMale: lsGet(LS.selectedMale, null),
+        selectedFemale: lsGet(LS.selectedFemale, null),
+        savedPairs: lsGet(LS.userPairs, []),
+        comments: lsGet(LS.comments, {})
+      };
+    }
+
+    function setAll(data, merge) {
+      const existing = getAll();
+      const next = merge ? {
+        maleFavorites: [...new Set([...existing.maleFavorites, ...(data.maleFavorites || [])])],
+        femaleFavorites: [...new Set([...existing.femaleFavorites, ...(data.femaleFavorites || [])])],
+        savedPairs: [...(existing.savedPairs || []), ...(data.savedPairs || [])],
+        comments: { ...existing.comments, ...(data.comments || {}) }
+      } : {
+        maleFavorites: data.maleFavorites || [],
+        femaleFavorites: data.femaleFavorites || [],
+        savedPairs: data.savedPairs || [],
+        comments: data.comments || {}
+      };
+      lsSet(LS.maleFav, next.maleFavorites);
+      lsSet(LS.femaleFav, next.femaleFavorites);
+      lsSet(LS.userPairs, next.savedPairs);
+      lsSet(LS.comments, next.comments);
+      if (!merge) {
+        lsDel(LS.selectedMale);
+        lsDel(LS.selectedFemale);
+      }
+    }
+
+    async function clearAll() {
+      Object.values(LS).forEach(lsDel);
+      await clearPhotos();
+    }
+
     return {
       fav: {
         getMale: () => lsGet(LS.maleFav, []),
@@ -98,6 +150,8 @@
         setSelectedFemale: id => lsSet(LS.selectedFemale, id),
       },
       comments: {
+        getAll: () => lsGet(LS.comments, {}),
+        setAll: obj => lsSet(LS.comments, obj),
         get: ringId => (lsGet(LS.comments, {})[ringId] || []),
         add: (ringId, text) => {
           const all = lsGet(LS.comments, {});
@@ -106,7 +160,17 @@
           lsSet(LS.comments, all);
         }
       },
-      photos: { get: getPhotos, add: addPhoto, remove: removePhoto }
+      userPairs: {
+        getAll: () => lsGet(LS.userPairs, []),
+        setAll: arr => lsSet(LS.userPairs, arr),
+        add: pair => {
+          const all = lsGet(LS.userPairs, []);
+          all.push(pair);
+          lsSet(LS.userPairs, all);
+        }
+      },
+      photos: { get: getPhotos, add: addPhoto, remove: removePhoto, clear: clearPhotos },
+      getAll, setAll, clearAll
     };
   })();
 
@@ -387,6 +451,18 @@
     ].map(t => `<button class="tab ${state.tab === t.id ? 'active' : ''}" data-tab="${t.id}">${t.label}${t.count ? `<span class="count">${t.count}</span>` : ''}</button>`).join('');
   }
 
+  function renderRingDetail(ring) {
+    const brand = brandById[ring.brandId];
+    return `
+      <div class="match-ring-detail">
+        <div class="detail-brand">${escapeHtml(brand ? brand.name : ring.brandId)}</div>
+        <div class="detail-name">${escapeHtml(ring.name)}</div>
+        <div class="detail-meta">${escapeHtml((ring.materials || []).join(' · '))}</div>
+        <div class="detail-price">${escapeHtml(ring.price?.display || '需询价')}</div>
+        <a class="detail-link" href="${escapeHtml(ring.officialUrl || '#')}" target="_blank" rel="noopener">官网 →</a>
+      </div>`;
+  }
+
   function renderFavorites() {
     const grid = document.getElementById('grid');
     const count = document.getElementById('count');
@@ -398,7 +474,14 @@
     const maleRings = maleIds.map(id => ringById[id]).filter(Boolean);
     const femaleRings = femaleIds.map(id => ringById[id]).filter(Boolean);
 
-    let html = '<div class="fav-panel">';
+    let html = '<div class="data-actions">';
+    html += '<button id="exportData" class="secondary">导出本地数据</button>';
+    html += '<label class="file-label secondary"><input type="file" id="importData" accept="application/json">导入本地数据</label>';
+    html += '<button id="clearData" class="danger">清空本地数据</button>';
+    html += '<span class="data-hint">导出不包含上传照片；照片仍保留在当前浏览器 IndexedDB 中。</span>';
+    html += '</div>';
+
+    html += '<div class="fav-panel">';
     html += renderFavList('male', maleRings, selectedMale, '男戒候选');
     html += renderFavList('female', femaleRings, selectedFemale, '女戒候选');
     html += '</div>';
@@ -408,22 +491,52 @@
     if (selectedMale && selectedFemale) {
       const m = ringById[selectedMale];
       const f = ringById[selectedFemale];
-      const total = priceAmount(m) + priceAmount(f);
       const system = pairs.find(p => p.maleRingId === selectedMale && p.femaleRingId === selectedFemale);
+
+      const mHasPrice = priceAmount(m) > 0;
+      const fHasPrice = priceAmount(f) > 0;
+      const total = mHasPrice && fHasPrice ? priceAmount(m) + priceAmount(f) : null;
+      const overBudget = total && total > 100000;
+      const budgetText = total ? `合计约 ${money(total)}` : '预算需人工确认（部分款式为询价/价格不明）';
+
       html += `
-        <div class="match-combo">
-          <div class="match-side">${m ? imgHtml(m.image, m.name, m.collection || m.name, m.brandId) : ''}<div class="name">${escapeHtml(m?.name || '')}</div><div class="price">${escapeHtml(m?.price?.display || '')}</div></div>
+        <div class="match-combo detailed">
+          <div class="match-side">${m ? imgHtml(m.image, m.name, m.collection || m.name, m.brandId) : ''}${renderRingDetail(m)}</div>
           <div class="match-plus">+</div>
-          <div class="match-side">${f ? imgHtml(f.image, f.name, f.collection || f.name, f.brandId) : ''}<div class="name">${escapeHtml(f?.name || '')}</div><div class="price">${escapeHtml(f?.price?.display || '')}</div></div>
+          <div class="match-side">${f ? imgHtml(f.image, f.name, f.collection || f.name, f.brandId) : ''}${renderRingDetail(f)}</div>
         </div>
-        <div class="price" style="margin-top:10px;">合计约 ${money(total)}</div>
-        ${system ? `<div class="meaning" style="margin-top:8px;"><b>系统推荐理由：</b>${escapeHtml(system.matchReason)}</div>` : ''}
-        <div class="match-reason"><input type="text" class="reason-input" id="matchReason" placeholder="写下你的组合理由或备注"></div>
+        <div class="match-budget ${overBudget ? 'over' : ''}">${budgetText}${overBudget ? ' · 超过 ¥100,000 预算' : ''}</div>
+        ${system ? `
+          <div class="match-system">
+            <div class="system-reason"><b>系统推荐理由：</b>${escapeHtml(system.matchReason)}</div>
+            <div class="tags">${(system.tags || []).map(t => `<span>${escapeHtml(t)}</span>`).join('')}</div>
+          </div>` : `
+          <div class="match-system">
+            <div class="system-reason">这是自定义组合，可填写备注后保存。</div>
+          </div>`}
+        <div class="match-reason"><input type="text" class="reason-input" id="matchReason" placeholder="写下你的组合理由或备注" value="${system ? escapeHtml(system.matchReason) : ''}"></div>
         <div class="match-actions"><button class="primary" id="saveCombo">保存这个组合</button><button id="clearCombo">清空选择</button></div>`;
     } else {
       html += '<div class="empty" style="padding:20px;">从上方两个列表中各选一枚戒指，即可生成临时组合。</div>';
     }
     html += '</div>';
+
+    // Saved user pairs
+    const saved = Storage.userPairs.getAll();
+    if (saved.length) {
+      html += '<div class="saved-pairs"><h3>已保存组合</h3>';
+      html += saved.map((p, idx) => {
+        const m = ringById[p.maleRingId];
+        const f = ringById[p.femaleRingId];
+        const total = (m && priceAmount(m)) + (f && priceAmount(f));
+        return `<div class="saved-pair">
+          <div class="saved-title">${escapeHtml(m?.name || '')} + ${escapeHtml(f?.name || '')}</div>
+          <div class="saved-meta">${escapeHtml(p.reason || '')} · ${total ? money(total) : '预算需确认'}</div>
+          <button class="remove-saved" data-idx="${idx}" title="删除">×</button>
+        </div>`;
+      }).join('');
+      html += '</div>';
+    }
 
     // System pairs that match selected rings
     if (selectedMale || selectedFemale) {
@@ -440,6 +553,7 @@
     count.textContent = `男戒 ${maleRings.length} / 女戒 ${femaleRings.length}`;
     bindFavEvents();
     bindMatchEvents();
+    bindDataActions();
     ensureImageFallbacks();
   }
 
@@ -468,6 +582,7 @@
       el.addEventListener('input', () => {
         const key = id.replace('Filter', '');
         state.filters[key] = el.value;
+        updateUrl();
         renderCatalog();
       });
     });
@@ -478,6 +593,7 @@
       const tab = e.target.closest('.tab');
       if (!tab) return;
       state.tab = tab.dataset.tab;
+      updateUrl();
       renderTabs();
       renderCatalog();
       updateFilterVisibility();
@@ -545,6 +661,7 @@
         state.tab = 'singles';
         state.filters.search = pair.pairName;
         document.getElementById('search').value = pair.pairName;
+        updateUrl();
         renderTabs();
         renderCatalog();
         updateFilterVisibility();
@@ -597,16 +714,75 @@
       const m = Storage.fav.getSelectedMale();
       const f = Storage.fav.getSelectedFemale();
       if (!m || !f) return;
-      // Save as a user-defined pair in localStorage
-      const userPairs = JSON.parse(localStorage.getItem('rings_user_pairs') || '[]');
-      userPairs.push({ maleRingId: m, femaleRingId: f, reason, date: new Date().toISOString() });
-      localStorage.setItem('rings_user_pairs', JSON.stringify(userPairs));
-      alert('组合已保存到本地（可在浏览器 localStorage 中查看）');
+      Storage.userPairs.add({ maleRingId: m, femaleRingId: f, reason, date: new Date().toISOString() });
+      alert('组合已保存到本地');
+      renderTabs();
     });
     if (clear) clear.addEventListener('click', () => {
       Storage.fav.setSelectedMale(null);
       Storage.fav.setSelectedFemale(null);
       renderFavorites();
+    });
+  }
+
+  function bindDataActions() {
+    const exportBtn = document.getElementById('exportData');
+    const importInput = document.getElementById('importData');
+    const clearBtn = document.getElementById('clearData');
+
+    if (exportBtn) exportBtn.addEventListener('click', () => {
+      const payload = {
+        version: 1,
+        exportedAt: new Date().toISOString(),
+        ...Storage.getAll(),
+        filters: { ...state.filters },
+        tab: state.tab
+      };
+      const blob = new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `rings-data-${new Date().toISOString().slice(0, 10)}.json`;
+      a.click();
+      URL.revokeObjectURL(url);
+    });
+
+    if (importInput) importInput.addEventListener('change', async () => {
+      const file = importInput.files[0];
+      if (!file) return;
+      const mode = confirm('点击“确定”执行合并导入（不会覆盖已有收藏和评论）；点击“取消”执行覆盖导入（会清空当前本地数据）。');
+      try {
+        const text = await file.text();
+        const data = JSON.parse(text);
+        if (!data.version || !Array.isArray(data.maleFavorites) || !Array.isArray(data.femaleFavorites)) {
+          throw new Error('文件格式不正确');
+        }
+        Storage.setAll(data, mode);
+        alert(mode ? '合并导入成功' : '覆盖导入成功');
+        renderTabs();
+        renderCatalog();
+      } catch (e) {
+        alert('导入失败：' + e.message);
+      }
+      importInput.value = '';
+    });
+
+    if (clearBtn) clearBtn.addEventListener('click', async () => {
+      if (!confirm('确定要清空所有本地数据吗？\n\n这将删除：收藏、已保存组合、评论、上传照片。\n此操作不可恢复。')) return;
+      await Storage.clearAll();
+      renderTabs();
+      renderCatalog();
+      alert('本地数据已清空');
+    });
+
+    document.querySelectorAll('.remove-saved').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const idx = +btn.dataset.idx;
+        const all = Storage.userPairs.getAll();
+        all.splice(idx, 1);
+        Storage.userPairs.setAll(all);
+        renderFavorites();
+      });
     });
   }
 
@@ -643,8 +819,46 @@
     styleFilter.innerHTML = '<option value="all">全部风格</option>' + styles.map(s => `<option value="${escapeHtml(s)}">${escapeHtml(s)}</option>`).join('');
   }
 
+  function applyStateToDom() {
+    document.getElementById('search').value = state.filters.search;
+    document.getElementById('budget').value = state.filters.budget;
+    document.getElementById('brandFilter').value = state.filters.brand;
+    document.getElementById('materialFilter').value = state.filters.material;
+    document.getElementById('styleFilter').value = state.filters.style;
+    document.getElementById('genderFilter').value = state.filters.gender;
+  }
+
+  function readUrlState() {
+    const params = new URLSearchParams(window.location.search);
+    if (params.has('tab') && ['pairs', 'singles', 'favorites'].includes(params.get('tab'))) {
+      state.tab = params.get('tab');
+    }
+    if (params.has('q')) state.filters.search = params.get('q');
+    if (params.has('budget')) state.filters.budget = params.get('budget');
+    if (params.has('brand')) state.filters.brand = params.get('brand');
+    if (params.has('material')) state.filters.material = params.get('material');
+    if (params.has('style')) state.filters.style = params.get('style');
+    if (params.has('gender')) state.filters.gender = params.get('gender');
+  }
+
+  function updateUrl() {
+    const params = new URLSearchParams();
+    if (state.tab !== 'pairs') params.set('tab', state.tab);
+    if (state.filters.search) params.set('q', state.filters.search);
+    if (state.filters.budget !== 'all') params.set('budget', state.filters.budget);
+    if (state.filters.brand !== 'all') params.set('brand', state.filters.brand);
+    if (state.filters.material !== 'all') params.set('material', state.filters.material);
+    if (state.filters.style !== 'all') params.set('style', state.filters.style);
+    if (state.filters.gender !== 'all') params.set('gender', state.filters.gender);
+    const qs = params.toString();
+    const url = qs ? '?' + qs : window.location.pathname;
+    try { window.history.replaceState({}, '', url); } catch {}
+  }
+
   function init() {
     populateFilters();
+    readUrlState();
+    applyStateToDom();
     renderTabs();
     bindTabs();
     bindFilters();
