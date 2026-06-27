@@ -3247,21 +3247,24 @@
       "checkedAt": "2026-06-27",
       "confidence": "official-range"
     },
-    "image": "wedding-ring-assets/placeholders/swarovski-stilla-m.svg",
-    "imageStatus": "placeholder",
-    "officialUrl": "https://www.swarovski.cn/",
+    "image": "https://asset.swarovski.com/images/$size_1200/t_swa103/b_rgb:ffffff,c_scale,dpr_1.0,f_auto,w_360/5649213_png/stilla-%E6%88%92%E6%8C%87--%E5%A5%97%E8%A3%85-%282%29%EF%BC%8C%E5%9C%86%E5%BD%A2%E5%88%87%E5%89%B2--%E7%99%BD%E8%89%B2--%E9%95%80%E9%93%91-swarovski-5649213.png",
+    "imageStatus": "official-remote",
+    "officialUrl": "https://www.swarovski.com.cn/zh-CN/p-M5649215/Stilla-%E6%88%92%E6%8C%87-%E5%A5%97%E8%A3%85-2-%E5%9C%86%E5%BD%A2%E5%88%87%E5%89%B2-%E7%99%BD%E8%89%B2-%E9%95%80%E9%93%91/?variantID=5649213",
     "description": "培育钻石设计，可持续璀璨。",
     "sourceUrls": [
-      "https://www.swarovski.cn"
+      "https://www.swarovski.cn",
+      "https://www.swarovski.com.cn/zh-CN/p-M5649215/Stilla-%E6%88%92%E6%8C%87-%E5%A5%97%E8%A3%85-2-%E5%9C%86%E5%BD%A2%E5%88%87%E5%89%B2-%E7%99%BD%E8%89%B2-%E9%95%80%E9%93%91/?variantID=5649213"
     ],
     "storeAvailabilityNote": "各大商场均有专柜；培育钻石系列可查询",
-    "imageSourceUrl": "https://www.swarovski.cn/",
+    "imageSourceUrl": "https://www.swarovski.com.cn/zh-CN/p-M5649215/Stilla-%E6%88%92%E6%8C%87-%E5%A5%97%E8%A3%85-2-%E5%9C%86%E5%BD%A2%E5%88%87%E5%89%B2-%E7%99%BD%E8%89%B2-%E9%95%80%E9%93%91/?variantID=5649213",
     "dataQuality": {
       "score": 73,
       "status": "ok",
       "notes": [
         "placeholder-image"
-      ]
+      ],
+      "imageVerified": true,
+      "imageMatchConfidence": "sku"
     }
   },
   {
@@ -3294,21 +3297,24 @@
       "checkedAt": "2026-06-27",
       "confidence": "official-range"
     },
-    "image": "wedding-ring-assets/placeholders/swarovski-stilla-f.svg",
-    "imageStatus": "placeholder",
-    "officialUrl": "https://www.swarovski.cn/",
+    "image": "https://asset.swarovski.com/images/$size_1200/t_swa103/b_rgb:ffffff,c_scale,dpr_1.0,f_auto,w_360/5723332_png/stilla-%E4%B8%AA%E6%80%A7%E6%88%92%E6%8C%87--%E5%9C%86%E5%BD%A2%E5%88%87%E5%89%B2--%E7%99%BD%E8%89%B2--%E9%87%91%E8%89%B2%E9%A5%B0%E9%9D%A2-swarovski-5723332.png",
+    "imageStatus": "official-remote",
+    "officialUrl": "https://www.swarovski.com.cn/zh-CN/p-M5642635/Stilla-%E4%B8%AA%E6%80%A7%E6%88%92%E6%8C%87-%E5%9C%86%E5%BD%A2%E5%88%87%E5%89%B2-%E7%99%BD%E8%89%B2-%E9%87%91%E8%89%B2%E9%A5%B0%E9%9D%A2/?variantID=5723332",
     "description": "培育钻石设计，优雅可持续。",
     "sourceUrls": [
-      "https://www.swarovski.cn"
+      "https://www.swarovski.cn",
+      "https://www.swarovski.com.cn/zh-CN/p-M5642635/Stilla-%E4%B8%AA%E6%80%A7%E6%88%92%E6%8C%87-%E5%9C%86%E5%BD%A2%E5%88%87%E5%89%B2-%E7%99%BD%E8%89%B2-%E9%87%91%E8%89%B2%E9%A5%B0%E9%9D%A2/?variantID=5723332"
     ],
     "storeAvailabilityNote": "各大商场均有专柜；培育钻石系列可查询",
-    "imageSourceUrl": "https://www.swarovski.cn/",
+    "imageSourceUrl": "https://www.swarovski.com.cn/zh-CN/p-M5642635/Stilla-%E4%B8%AA%E6%80%A7%E6%88%92%E6%8C%87-%E5%9C%86%E5%BD%A2%E5%88%87%E5%89%B2-%E7%99%BD%E8%89%B2-%E9%87%91%E8%89%B2%E9%A5%B0%E9%9D%A2/?variantID=5723332",
     "dataQuality": {
       "score": 73,
       "status": "ok",
       "notes": [
         "placeholder-image"
-      ]
+      ],
+      "imageVerified": true,
+      "imageMatchConfidence": "sku"
     }
   },
   {
@@ -9611,13 +9617,14 @@
       "checkedAt": "2026-06-27",
       "confidence": "estimate"
     },
-    "image": "wedding-ring-assets/local/swarovski-matrix-matrix-female.svg",
-    "imageStatus": "generated-local",
-    "imageSourceUrl": "https://www.swarovski.cn",
-    "officialUrl": "https://www.swarovski.cn",
+    "image": "https://asset.swarovski.com/images/$size_1200/t_swa103/b_rgb:ffffff,c_scale,dpr_1.0,f_auto,w_360/5714334_png/matrix-%E6%88%92%E6%8C%87--%E9%95%BF%E6%96%B9%E5%BD%A2%E5%88%87%E5%89%B2--%E7%99%BD%E8%89%B2--%E9%93%B6%E8%89%B2%E6%B6%A6%E9%A5%B0-swarovski-5714334.png",
+    "imageStatus": "official-remote",
+    "imageSourceUrl": "https://www.swarovski.com.cn/zh-CN/p-M5648286/Matrix-%E6%88%92%E6%8C%87-%E9%95%BF%E6%96%B9%E5%BD%A2%E5%88%87%E5%89%B2-%E7%99%BD%E8%89%B2-%E9%93%B6%E8%89%B2%E6%B6%A6%E9%A5%B0/?variantID=5714334",
+    "officialUrl": "https://www.swarovski.com.cn/zh-CN/p-M5648286/Matrix-%E6%88%92%E6%8C%87-%E9%95%BF%E6%96%B9%E5%BD%A2%E5%88%87%E5%89%B2-%E7%99%BD%E8%89%B2-%E9%93%B6%E8%89%B2%E6%B6%A6%E9%A5%B0/?variantID=5714334",
     "description": "施华洛世奇 Matrix 系列，女款，925银 · 培育钻石。璀璨、可及的象征。",
     "sourceUrls": [
-      "https://www.swarovski.cn/"
+      "https://www.swarovski.cn/",
+      "https://www.swarovski.com.cn/zh-CN/p-M5648286/Matrix-%E6%88%92%E6%8C%87-%E9%95%BF%E6%96%B9%E5%BD%A2%E5%88%87%E5%89%B2-%E7%99%BD%E8%89%B2-%E9%93%B6%E8%89%B2%E6%B6%A6%E9%A5%B0/?variantID=5714334"
     ],
     "dataQuality": {
       "score": 80,
@@ -9625,7 +9632,9 @@
       "notes": [
         "generated-illustration",
         "price-estimate"
-      ]
+      ],
+      "imageVerified": true,
+      "imageMatchConfidence": "sku"
     }
   },
   {
@@ -9659,13 +9668,14 @@
       "checkedAt": "2026-06-27",
       "confidence": "estimate"
     },
-    "image": "wedding-ring-assets/local/swarovski-vittore-vittore-male.svg",
-    "imageStatus": "generated-local",
-    "imageSourceUrl": "https://www.swarovski.cn",
-    "officialUrl": "https://www.swarovski.cn",
+    "image": "https://asset.swarovski.com/images/$size_1200/t_swa103/b_rgb:ffffff,c_scale,dpr_1.0,f_auto,w_360/5705603_png/matrix-vittore-%E6%88%92%E6%8C%87--%E5%9C%86%E5%BD%A2%E5%88%87%E5%89%B2--%E7%99%BD%E8%89%B2--%E9%93%B6%E8%89%B2%E6%B6%A6%E9%A5%B0-swarovski-5705603.png",
+    "imageStatus": "official-remote",
+    "imageSourceUrl": "https://www.swarovski.com.cn/zh-CN/p-M5705602/Matrix-Vittore-%E6%88%92%E6%8C%87-%E5%9C%86%E5%BD%A2%E5%88%87%E5%89%B2-%E7%99%BD%E8%89%B2-%E9%93%B6%E8%89%B2%E6%B6%A6%E9%A5%B0/?variantID=5705603",
+    "officialUrl": "https://www.swarovski.com.cn/zh-CN/p-M5705602/Matrix-Vittore-%E6%88%92%E6%8C%87-%E5%9C%86%E5%BD%A2%E5%88%87%E5%89%B2-%E7%99%BD%E8%89%B2-%E9%93%B6%E8%89%B2%E6%B6%A6%E9%A5%B0/?variantID=5705603",
     "description": "施华洛世奇 Vittore 系列，男款，925银 · 培育钻石。优雅、可及的象征。",
     "sourceUrls": [
-      "https://www.swarovski.cn/"
+      "https://www.swarovski.cn/",
+      "https://www.swarovski.com.cn/zh-CN/p-M5705602/Matrix-Vittore-%E6%88%92%E6%8C%87-%E5%9C%86%E5%BD%A2%E5%88%87%E5%89%B2-%E7%99%BD%E8%89%B2-%E9%93%B6%E8%89%B2%E6%B6%A6%E9%A5%B0/?variantID=5705603"
     ],
     "dataQuality": {
       "score": 80,
@@ -9673,7 +9683,9 @@
       "notes": [
         "generated-illustration",
         "price-estimate"
-      ]
+      ],
+      "imageVerified": true,
+      "imageMatchConfidence": "sku"
     }
   },
   {
@@ -9707,13 +9719,14 @@
       "checkedAt": "2026-06-27",
       "confidence": "estimate"
     },
-    "image": "wedding-ring-assets/local/swarovski-vittore-vittore-female.svg",
-    "imageStatus": "generated-local",
-    "imageSourceUrl": "https://www.swarovski.cn",
-    "officialUrl": "https://www.swarovski.cn",
+    "image": "https://asset.swarovski.com/images/$size_1200/t_swa103/b_rgb:ffffff,c_scale,dpr_1.0,f_auto,w_360/5753849_png/matrix-vittore-%E6%88%92%E6%8C%87--%E5%9C%86%E5%BD%A2%E5%88%87%E5%89%B2--%E7%99%BD%E8%89%B2--%E9%87%91%E8%89%B2%E9%A5%B0%E9%9D%A2-swarovski-5753849.png",
+    "imageStatus": "official-remote",
+    "imageSourceUrl": "https://www.swarovski.com.cn/zh-CN/p-M5705602/Matrix-Vittore-%E6%88%92%E6%8C%87-%E5%9C%86%E5%BD%A2%E5%88%87%E5%89%B2-%E7%99%BD%E8%89%B2-%E9%87%91%E8%89%B2%E9%A5%B0%E9%9D%A2/?variantID=5753849",
+    "officialUrl": "https://www.swarovski.com.cn/zh-CN/p-M5705602/Matrix-Vittore-%E6%88%92%E6%8C%87-%E5%9C%86%E5%BD%A2%E5%88%87%E5%89%B2-%E7%99%BD%E8%89%B2-%E9%87%91%E8%89%B2%E9%A5%B0%E9%9D%A2/?variantID=5753849",
     "description": "施华洛世奇 Vittore 系列，女款，925银 · 培育钻石。优雅、可及的象征。",
     "sourceUrls": [
-      "https://www.swarovski.cn/"
+      "https://www.swarovski.cn/",
+      "https://www.swarovski.com.cn/zh-CN/p-M5705602/Matrix-Vittore-%E6%88%92%E6%8C%87-%E5%9C%86%E5%BD%A2%E5%88%87%E5%89%B2-%E7%99%BD%E8%89%B2-%E9%87%91%E8%89%B2%E9%A5%B0%E9%9D%A2/?variantID=5753849"
     ],
     "dataQuality": {
       "score": 80,
@@ -9721,7 +9734,9 @@
       "notes": [
         "generated-illustration",
         "price-estimate"
-      ]
+      ],
+      "imageVerified": true,
+      "imageMatchConfidence": "sku"
     }
   },
   {
@@ -9752,13 +9767,14 @@
       "checkedAt": "2026-06-27",
       "confidence": "estimate"
     },
-    "image": "wedding-ring-assets/local/swarovski-dextera-dextera-male.svg",
-    "imageStatus": "generated-local",
-    "imageSourceUrl": "https://www.swarovski.cn",
-    "officialUrl": "https://www.swarovski.cn",
+    "image": "https://asset.swarovski.com/images/$size_1200/t_swa103/b_rgb:ffffff,c_scale,dpr_1.0,f_auto,w_360/5695935_png/dextera-%E6%88%92%E6%8C%87--%E7%99%BD%E8%89%B2--%E9%95%80%E9%93%91-swarovski-5695935.png",
+    "imageStatus": "official-remote",
+    "imageSourceUrl": "https://www.swarovski.com.cn/zh-CN/p-M5668810/Dextera-%E6%88%92%E6%8C%87-%E7%99%BD%E8%89%B2-%E9%95%80%E9%93%91/?variantID=5695935",
+    "officialUrl": "https://www.swarovski.com.cn/zh-CN/p-M5668810/Dextera-%E6%88%92%E6%8C%87-%E7%99%BD%E8%89%B2-%E9%95%80%E9%93%91/?variantID=5695935",
     "description": "施华洛世奇 Dextera 系列，男款，925银。力量、个性的象征。",
     "sourceUrls": [
-      "https://www.swarovski.cn/"
+      "https://www.swarovski.cn/",
+      "https://www.swarovski.com.cn/zh-CN/p-M5668810/Dextera-%E6%88%92%E6%8C%87-%E7%99%BD%E8%89%B2-%E9%95%80%E9%93%91/?variantID=5695935"
     ],
     "dataQuality": {
       "score": 80,
@@ -9766,7 +9782,9 @@
       "notes": [
         "generated-illustration",
         "price-estimate"
-      ]
+      ],
+      "imageVerified": true,
+      "imageMatchConfidence": "sku"
     }
   },
   {
@@ -9797,13 +9815,14 @@
       "checkedAt": "2026-06-27",
       "confidence": "estimate"
     },
-    "image": "wedding-ring-assets/local/swarovski-dextera-dextera-female.svg",
-    "imageStatus": "generated-local",
-    "imageSourceUrl": "https://www.swarovski.cn",
-    "officialUrl": "https://www.swarovski.cn",
+    "image": "https://asset.swarovski.com/images/$size_1200/t_swa103/b_rgb:ffffff,c_scale,dpr_1.0,f_auto,w_360/5668814_png/dextera-%E6%88%92%E6%8C%87--%E7%99%BD%E8%89%B2--%E9%87%91%E8%89%B2%E9%A5%B0%E9%9D%A2-swarovski-5668814.png",
+    "imageStatus": "official-remote",
+    "imageSourceUrl": "https://www.swarovski.com.cn/zh-CN/p-M5668810/Dextera-%E6%88%92%E6%8C%87-%E7%99%BD%E8%89%B2-%E9%87%91%E8%89%B2%E9%A5%B0%E9%9D%A2/?variantID=5668814",
+    "officialUrl": "https://www.swarovski.com.cn/zh-CN/p-M5668810/Dextera-%E6%88%92%E6%8C%87-%E7%99%BD%E8%89%B2-%E9%87%91%E8%89%B2%E9%A5%B0%E9%9D%A2/?variantID=5668814",
     "description": "施华洛世奇 Dextera 系列，女款，925银。力量、个性的象征。",
     "sourceUrls": [
-      "https://www.swarovski.cn/"
+      "https://www.swarovski.cn/",
+      "https://www.swarovski.com.cn/zh-CN/p-M5668810/Dextera-%E6%88%92%E6%8C%87-%E7%99%BD%E8%89%B2-%E9%87%91%E8%89%B2%E9%A5%B0%E9%9D%A2/?variantID=5668814"
     ],
     "dataQuality": {
       "score": 80,
@@ -9811,7 +9830,9 @@
       "notes": [
         "generated-illustration",
         "price-estimate"
-      ]
+      ],
+      "imageVerified": true,
+      "imageMatchConfidence": "sku"
     }
   },
   {
