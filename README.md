@@ -71,16 +71,15 @@ wedding-ring-assets/    图片资源
 
 ## 部署
 
-### GitHub Pages
+### GitHub Pages（推荐）
 
 1. 将代码推送到 GitHub 仓库。
-2. 打开仓库页面，进入 **Settings → Pages**。
-3. 在 **Build and deployment** 中：
-   - **Source** 选择 **Deploy from a branch**；
-   - **Branch** 选择 `main`；
-   - **Folder** 选择 `/(root)`；
-   - 点击 **Save**。
-4. 等待 1–2 分钟后，GitHub 会给出访问链接。
+2. 仓库已包含 `.github/workflows/pages.yml`，push 到 `main` 分支后会自动部署到 GitHub Pages。
+3. 打开仓库页面，进入 **Settings → Pages**。
+4. 在 **Build and deployment** 中：
+   - **Source** 选择 **GitHub Actions**；
+   - 工作流 `Deploy static site to GitHub Pages` 会自动运行。
+5. 首次部署完成后，访问地址预计为 `https://cd-cloud.github.io/rings/`。
 
 ### Vercel / Cloudflare Pages
 

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f7f2eb"/>
+      <stop offset="100%" stop-color="#ead7cf"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <ellipse cx="520" cy="315" rx="140" ry="140" fill="none" stroke="#a96860" stroke-width="28"/>
+  <ellipse cx="680" cy="315" rx="140" ry="140" fill="none" stroke="#3e5a50" stroke-width="28"/>
+  <text x="600" y="540" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="56" fill="#28231f">婚礼对戒款式库 · 收藏与匹配</text>
+  <text x="600" y="595" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="28" fill="#756d65">浏览 100+ 款对戒，生成专属搭配组合</text>
+</svg>

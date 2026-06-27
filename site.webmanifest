@@ -1,0 +1,16 @@
+{
+  "name": "婚礼对戒款式库",
+  "short_name": "对戒库",
+  "description": "按品牌、预算、材质和风格筛选婚礼对戒，收藏男戒/女戒候选并生成搭配组合。",
+  "start_url": "/rings/",
+  "display": "standalone",
+  "background_color": "#f7f2eb",
+  "theme_color": "#f7f2eb",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

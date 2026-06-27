@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://cd-cloud.github.io/rings/sitemap.xml

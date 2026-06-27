@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>隐私说明 · 婚礼对戒款式库</title>
+  <meta name="description" content="婚礼对戒款式库隐私说明：本地数据、照片、导出与清除政策。">
+  <meta name="theme-color" content="#f7f2eb">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="wrap">
+  <div class="eyebrow">PRIVACY</div>
+  <h1>隐私说明</h1>
+  <p class="lead">本页说明婚礼对戒款式库如何处理您的数据。</p>
+</header>
+
+<main class="wrap legal-page">
+  <section>
+    <h2>1. 无需登录</h2>
+    <p>当前版本不收集手机号、邮箱、社交账号或任何可识别个人身份的信息。您可以直接打开页面使用，无需注册或登录。</p>
+  </section>
+
+  <section>
+    <h2>2. 数据默认保存在您的浏览器本地</h2>
+    <ul>
+      <li><b>收藏（男戒候选、女戒候选、已保存组合）</b>保存在浏览器的 <code>localStorage</code> 中。</li>
+      <li><b>评论</b>保存在浏览器的 <code>localStorage</code> 中。</li>
+      <li><b>上传照片</b>经过压缩后保存在浏览器的 <code>IndexedDB</code> 中。</li>
+    </ul>
+    <p>这些数据仅存在于您当前使用的设备与浏览器中，不会被发送到任何服务器。</p>
+  </section>
+
+  <section>
+    <h2>3. 导出文件由您自行保存</h2>
+    <p>“收藏与匹配”页提供“导出本地数据”功能，生成的 <code>.json</code> 文件会下载到您的设备。该文件由您自行保管，<b>不包含</b>上传照片。若需要迁移照片，请手动备份当前浏览器的 IndexedDB 数据。</p>
+  </section>
+
+  <section>
+    <h2>4. 上传照片不会发送到服务器</h2>
+    <p>您上传的试戴照片、商品照片等仅在浏览器内部进行压缩和存储，不会上传到我们或任何第三方的服务器。</p>
+  </section>
+
+  <section>
+    <h2>5. 清除浏览器数据会导致本地数据丢失</h2>
+    <p>清除浏览器缓存、Cookie、站点数据或卸载浏览器应用，可能导致 <code>localStorage</code> 和 <code>IndexedDB</code> 中的收藏、评论、照片全部丢失且无法恢复。建议您定期导出重要数据。</p>
+  </section>
+
+  <section>
+    <h2>6. 后续更新</h2>
+    <p>如果未来版本接入后端或需要收集个人信息，我们会更新本隐私说明，并在页面上显著提示您。当前版本（静态 MVP）仅作为选购参考工具使用。</p>
+  </section>
+</main>
+
+<footer class="wrap">
+  <div class="footer-links">
+    <a href="index.html">返回首页</a>
+    <span>·</span>
+    <a href="disclaimer.html">免责声明</a>
+  </div>
+</footer>
+</body>
+</html>

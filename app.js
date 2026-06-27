@@ -292,12 +292,13 @@
     return `<img src="${escapeHtml(src)}" alt="${escapeHtml(alt)}" loading="lazy" onerror="window.RINGS_FALLBACK(this, '${ft}', '${fs}')">`;
   }
 
-  function buildRingVisual(ring) {
+  function buildRingVisual(ring, brandName) {
     const placeholder = !ring.image || ring.imageStatus === 'placeholder';
+    const alt = [brandName, ring.name].filter(Boolean).join(' ');
     return `
       <div class="visual single">
         ${placeholder ? '<span class="badge placeholder">结构示意</span>' : ''}
-        ${imgHtml(ring.image, ring.name, ring.collection || ring.name, ring.brandId)}
+        ${imgHtml(ring.image, alt, ring.collection || ring.name, ring.brandId)}
       </div>`;
   }
 
@@ -327,7 +328,7 @@
     const comments = Storage.comments.get(ring.id);
     return `
       <article class="card ring-card" data-id="${ring.id}">
-        ${buildRingVisual(ring)}
+        ${buildRingVisual(ring, brand ? brand.name : ring.brandId)}
         <div class="body">
           <div class="brand">${escapeHtml(brand ? brand.name : ring.brandId)}</div>
           <h2>${escapeHtml(ring.name)}</h2>
@@ -344,20 +345,23 @@
           </div>
           <div class="tags">${(ring.styleTags || []).concat(ring.meaningTags || []).map(t => `<span>${escapeHtml(t)}</span>`).join('')}</div>
           <div class="actions">
-            <a class="primary" href="${escapeHtml(ring.officialUrl || '#')}" target="_blank" rel="noopener">官网</a>
-            <button class="fav-male ${isMale ? 'active' : ''}" data-id="${ring.id}">${isMale ? '已' : ''}收藏为男戒候选</button>
-            <button class="fav-female ${isFemale ? 'active' : ''}" data-id="${ring.id}">${isFemale ? '已' : ''}收藏为女戒候选</button>
+            <a class="primary" href="${escapeHtml(ring.officialUrl || '#')}" target="_blank" rel="noopener" aria-label="${escapeHtml(brand ? brand.name : ring.brandId)} 官网">官网</a>
+            <button class="fav-male ${isMale ? 'active' : ''}" data-id="${ring.id}" aria-label="收藏 ${escapeHtml(ring.name)} 为男戒候选">${isMale ? '已' : ''}收藏为男戒候选</button>
+            <button class="fav-female ${isFemale ? 'active' : ''}" data-id="${ring.id}" aria-label="收藏 ${escapeHtml(ring.name)} 为女戒候选">${isFemale ? '已' : ''}收藏为女戒候选</button>
           </div>
           <div class="store-note" style="margin-top:10px;font-size:11px;color:var(--muted);">${escapeHtml(ring.storeAvailabilityNote || beijingNote(ring.brandId))}</div>
-          <button class="detail-toggle">💬 评论/照片 (${comments.length})</button>
+          <button class="detail-toggle" aria-expanded="false" aria-label="查看或添加 ${escapeHtml(ring.name)} 的评论与照片">💬 评论/照片 (${comments.length})</button>
           <div class="detail-box">
             <h4>评论与试戴感受</h4>
             <div class="comments-list">${comments.map(c => `<div class="comment">${escapeHtml(c.text)}<time>${new Date(c.date).toLocaleDateString()}</time></div>`).join('') || '<div class="comment" style="color:#999;">暂无评论，按回车添加</div>'}</div>
-            <input type="text" class="comment-input" placeholder="写下评论、试戴感受或价格备注，按回车保存" data-id="${ring.id}">
+            <input type="text" class="comment-input" placeholder="写下评论、试戴感受或价格备注，按回车保存" data-id="${ring.id}" aria-label="评论输入">
             <h4 style="margin-top:12px;">照片</h4>
             <div class="photos-list" data-id="${ring.id}"><span style="color:#999;font-size:11px;">加载中…</span></div>
-            <input type="file" accept="image/*" class="photo-input" data-id="${ring.id}">
-            <div class="photo-hint">图片会自动压缩后保存到浏览器本地（IndexedDB），最多保留 8 张。</div>
+            <label class="file-upload-label" aria-label="上传 ${escapeHtml(ring.name)} 的照片">
+              <input type="file" accept="image/*" class="photo-input" data-id="${ring.id}">
+              <span>选择照片上传</span>
+            </label>
+            <div class="photo-hint">图片会自动压缩后保存到浏览器本地（IndexedDB），每款最多保留 8 张。</div>
           </div>
         </div>
       </article>`;
@@ -448,7 +452,7 @@
       { id: 'pairs', label: '推荐组合' },
       { id: 'singles', label: '款式目录' },
       { id: 'favorites', label: '收藏与匹配', count: maleCount + femaleCount }
-    ].map(t => `<button class="tab ${state.tab === t.id ? 'active' : ''}" data-tab="${t.id}">${t.label}${t.count ? `<span class="count">${t.count}</span>` : ''}</button>`).join('');
+    ].map(t => `<button class="tab ${state.tab === t.id ? 'active' : ''}" data-tab="${t.id}" aria-label="切换到${t.label}">${t.label}${t.count ? `<span class="count" aria-hidden="true">${t.count}</span>` : ''}</button>`).join('');
   }
 
   function renderRingDetail(ring) {
@@ -475,9 +479,9 @@
     const femaleRings = femaleIds.map(id => ringById[id]).filter(Boolean);
 
     let html = '<div class="data-actions">';
-    html += '<button id="exportData" class="secondary">导出本地数据</button>';
-    html += '<label class="file-label secondary"><input type="file" id="importData" accept="application/json">导入本地数据</label>';
-    html += '<button id="clearData" class="danger">清空本地数据</button>';
+    html += '<button id="exportData" class="secondary" aria-label="导出本地收藏、组合与评论">导出本地数据</button>';
+    html += '<label class="file-label secondary" aria-label="导入本地数据"><input type="file" id="importData" accept="application/json" aria-label="选择本地数据 JSON 文件">导入本地数据</label>';
+    html += '<button id="clearData" class="danger" aria-label="清空所有本地数据">清空本地数据</button>';
     html += '<span class="data-hint">导出不包含上传照片；照片仍保留在当前浏览器 IndexedDB 中。</span>';
     html += '</div>';
 
@@ -565,7 +569,7 @@
           <div class="fav-item ${selectedId === r.id ? 'selected' : ''}" data-gender="${gender}" data-id="${r.id}">
             ${imgHtml(r.image, r.name, r.collection || r.name, r.brandId)}
             <div class="info"><div class="name">${escapeHtml(r.name)}</div><div class="price">${escapeHtml(r.price?.display || '')}</div></div>
-            <button class="remove" data-gender="${gender}" data-id="${r.id}" title="移除">×</button>
+            <button class="remove" data-gender="${gender}" data-id="${r.id}" title="移除" aria-label="从${gender === 'male' ? '男戒' : '女戒'}候选中移除 ${escapeHtml(r.name)}">×</button>
           </div>
         `).join('') : '<div class="fav-empty">暂无收藏，去款式目录添加</div>'}
       </div>`;
@@ -632,6 +636,7 @@
         const box = btn.nextElementSibling;
         box.classList.toggle('open');
         const open = box.classList.contains('open');
+        btn.setAttribute('aria-expanded', String(open));
         btn.textContent = open ? '🔼 收起评论/照片' : `💬 评论/照片 (${Storage.comments.get(btn.nextElementSibling.querySelector('.comment-input').dataset.id).length})`;
       });
     });
