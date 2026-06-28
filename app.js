@@ -266,7 +266,7 @@
   // Filter state
   // -------------------------------------------------------------------------
   const state = {
-    tab: 'pairs', // pairs | singles | favorites
+    tab: 'singles', // pairs | singles | favorites
     filters: { search: '', budget: 'all', brand: 'all', material: 'all', style: 'all', gender: 'all' }
   };
 
@@ -866,7 +866,7 @@
 
   function updateUrl() {
     const params = new URLSearchParams();
-    if (state.tab !== 'pairs') params.set('tab', state.tab);
+    if (state.tab !== 'singles') params.set('tab', state.tab);
     if (state.filters.search) params.set('q', state.filters.search);
     if (state.filters.budget !== 'all') params.set('budget', state.filters.budget);
     if (state.filters.brand !== 'all') params.set('brand', state.filters.brand);
