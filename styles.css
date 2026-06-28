@@ -31,11 +31,6 @@ header { padding: 34px 0 14px; }
 h1 { max-width: 900px; margin: 10px 0 8px; font: 500 clamp(32px, 4.6vw, 56px)/1.05 Georgia, "Songti SC", serif; letter-spacing: -.04em; }
 .lead { max-width: 960px; margin: 0; color: var(--muted); line-height: 1.65; }
 
-.tip { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin: 18px 0 12px; }
-.tip div { padding: 12px 14px; border: 1px solid #e5dbcf; border-radius: 14px; background: #fff9f4; }
-.tip b { display: block; margin-bottom: 3px; }
-.tip span { color: var(--muted); font-size: 13px; line-height: 1.55; }
-
 .tabs { display: flex; gap: 8px; margin: 18px 0 10px; flex-wrap: wrap; }
 .tab { padding: 10px 18px; border: 1px solid var(--line); border-radius: 999px; background: #fff; cursor: pointer; font-size: 13px; }
 .tab.active { background: var(--green); color: #fff; border-color: var(--green); }
@@ -207,7 +202,6 @@ footer { padding-bottom: 48px; color: var(--muted); font-size: 12px; line-height
   .tools { grid-template-columns: 1fr 1fr; }
   .tools input { grid-column: 1 / -1; }
   .grid { grid-template-columns: 1fr; }
-  .tip { grid-template-columns: 1fr; }
   .fav-panel { grid-template-columns: 1fr; }
   .match-combo { grid-template-columns: 1fr; }
   .match-plus { transform: rotate(90deg); }
