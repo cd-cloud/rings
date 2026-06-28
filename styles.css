@@ -26,14 +26,14 @@ button, input, select, textarea { font: inherit; color: inherit; }
 
 .wrap { width: min(1280px, calc(100% - 32px)); margin: auto; }
 
-header { padding: 58px 0 24px; }
+header { padding: 34px 0 14px; }
 .eyebrow { font-size: 11px; letter-spacing: .16em; color: var(--rose); font-weight: 800; }
-h1 { max-width: 900px; margin: 12px 0; font: 500 clamp(38px, 6vw, 72px)/1.02 Georgia, "Songti SC", serif; letter-spacing: -.04em; }
-.lead { max-width: 900px; color: var(--muted); line-height: 1.8; }
+h1 { max-width: 900px; margin: 10px 0 8px; font: 500 clamp(32px, 4.6vw, 56px)/1.05 Georgia, "Songti SC", serif; letter-spacing: -.04em; }
+.lead { max-width: 960px; margin: 0; color: var(--muted); line-height: 1.65; }
 
-.tip { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin: 28px 0; }
-.tip div { padding: 17px; border: 1px solid #e5dbcf; border-radius: 18px; background: #fff9f4; }
-.tip b { display: block; margin-bottom: 6px; }
+.tip { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin: 18px 0 12px; }
+.tip div { padding: 12px 14px; border: 1px solid #e5dbcf; border-radius: 14px; background: #fff9f4; }
+.tip b { display: block; margin-bottom: 3px; }
 .tip span { color: var(--muted); font-size: 13px; line-height: 1.55; }
 
 .tabs { display: flex; gap: 8px; margin: 18px 0 10px; flex-wrap: wrap; }
